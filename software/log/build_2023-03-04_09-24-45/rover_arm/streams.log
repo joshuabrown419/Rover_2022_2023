@@ -1,0 +1,154 @@
+[0.067s] Invoking command in '/Rover_2022_2023/software/build/rover_arm': CMAKE_PREFIX_PATH=/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm -- -j12 -l12
+[0.265s] [35m[1mScanning dependencies of target rover_arm[0m
+[0.372s] [ 50%] [32mBuilding CXX object CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o[0m
+[4.802s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:418:13:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeHandle[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[4.803s]   418 |     rclcpp::[01;31m[KNodeHandle[m[K *node_handle;
+[4.803s]       |             [01;31m[K^~~~~~~~~~[m[K
+[4.803s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:424:5:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Publisher[m[K’ without an argument list
+[4.803s]   424 |     [01;31m[Krclcpp[m[K::Publisher status_publisher;
+[4.804s]       |     [01;31m[K^~~~~~[m[K
+[4.804s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:424:5:[m[K [01;36m[Knote: [m[Kclass template argument deduction is only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[4.805s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[4.805s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[4.805s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[4.805s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.805s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.806s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.806s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.806s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.806s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.807s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.807s]                  from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:6[m[K:
+[4.807s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:51:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class MessageT, class AllocatorT> class rclcpp::Publisher[m[K’ declared here
+[4.807s]    51 | class [01;36m[KPublisher[m[K : public PublisherBase
+[4.808s]       |       [01;36m[K^~~~~~~~~[m[K
+[4.808s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:427:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[4.808s]   427 |     rclcpp::[01;31m[KSubscriber[m[K absolute_position_control_subscriber;
+[4.808s]       |             [01;31m[K^~~~~~~~~~[m[K
+[4.809s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:428:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[4.809s]   428 |     rclcpp::[01;31m[KSubscriber[m[K relative_position_control_subscriber;
+[4.809s]       |             [01;31m[K^~~~~~~~~~[m[K
+[4.809s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In constructor ‘[01m[KRoverArm::RoverArm(int, char**)[m[K’:
+[4.809s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:84:34:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst rclcpp::InitOptions&[m[K’ from expression of type ‘[01m[Kconst char [10][m[K’
+[4.810s]    84 |         rclcpp::init(argc, argv, [01;31m[K"rover_arm"[m[K);
+[4.810s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[4.810s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[4.810s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.811s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.811s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.811s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.811s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.812s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.813s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.813s]                  from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:6[m[K:
+[4.813s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:56:63:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+[4.813s]    56 | init(int argc, char const * const argv[], [01;36m[Kconst InitOptions & init_options = InitOptions()[m[K);
+[4.814s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.814s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_handle[m[K’ was not declared in this scope
+[4.814s]    86 |         [01;31m[Knode_handle[m[K = new rclcpp::NodeHandle("~");
+[4.814s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.815s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:27:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+[4.815s]    86 |         node_handle = new [01;31m[Krclcpp[m[K::NodeHandle("~");
+[4.815s]       |                           [01;31m[K^~~~~~[m[K
+[4.818s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+[4.819s]    93 |             [01;31m[KROS_ERROR[m[K("Could not connect to arm");
+[4.819s]       |             [01;31m[K^~~~~~~~~[m[K
+[4.841s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kabsolute_position_control_subscriber[m[K’ was not declared in this scope
+[4.841s]    99 |         [01;31m[Kabsolute_position_control_subscriber[m[K = node_handle->subscribe(default_absolute_position_control_topic, 1,
+[4.841s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.865s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krelative_position_control_subscriber[m[K’ was not declared in this scope
+[4.866s]   101 |         [01;31m[Krelative_position_control_subscriber[m[K = node_handle->subscribe(default_relative_position_control_topic, 1,
+[4.866s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.878s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher[m[K’ was not declared in this scope
+[4.878s]   104 |         [01;31m[Kstatus_publisher[m[K = node_handle->advertise<rover_arm_interface::ArmStatusMessage>(default_arm_status_topic, 1);
+[4.879s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.879s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:72:[m[K [01;31m[Kerror: [m[K‘[01m[KArmStatusMessage[m[K’ is not a member of ‘[01m[Krover_arm_interface[m[K’; did you mean ‘[01m[Krover_arm_interface::msg::ArmStatusMessage[m[K’?
+[4.879s]   104 |         status_publisher = node_handle->advertise<rover_arm_interface::[01;31m[KArmStatusMessage[m[K>(default_arm_status_topic, 1);
+[4.879s]       |                                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.880s] In file included from [01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_status_message.hpp:7[m[K,
+[4.880s]                  from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:10[m[K:
+[4.880s] [01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__struct.hpp:443:7:[m[K [01;36m[Knote: [m[K‘[01m[Krover_arm_interface::msg::ArmStatusMessage[m[K’ declared here
+[4.880s]   443 | using [01;36m[KArmStatusMessage[m[K =
+[4.881s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.881s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:90:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[4.881s]   104 |         status_publisher = node_handle->advertise<rover_arm_interface::ArmStatusMessage>([01;35m[Kdefault_arm_status_topic[m[K, 1);
+[4.882s]       |                                                                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.882s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::run()[m[K’:
+[4.882s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:136:21:[m[K [01;31m[Kerror: [m[K‘[01m[KspinOnce[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[4.883s]   136 |             rclcpp::[01;31m[KspinOnce[m[K();
+[4.883s]       |                     [01;31m[K^~~~~~~~[m[K
+[4.887s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:140:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+[4.888s]   140 |         [01;31m[KROS_ERROR[m[K("Shutting down.");
+[4.888s]       |         [01;31m[K^~~~~~~~~[m[K
+[4.888s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:124:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdir[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.888s]   124 |         char [01;35m[Kdir[m[K = 0;
+[4.889s]       |              [01;35m[K^~~[m[K
+[4.903s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::get_joint_statuses()[m[K’:
+[4.903s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:310:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher[m[K’ was not declared in this scope
+[4.903s]   310 |         [01;31m[Kstatus_publisher[m[K.publish(status_message);
+[4.903s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.905s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::absolute_position_callback(const ArmControlMessage&)[m[K’:
+[4.905s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:362:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.906s]   362 |         base_set_position = msg[01;31m[K->[m[Kbase * base_counts_per_rev;
+[4.906s]       |                                [01;31m[K^~[m[K
+[4.906s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:363:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.906s]   363 |         shoulder_set_position = msg[01;31m[K->[m[Kshoulder * shoulder_counts_per_rev;
+[4.907s]       |                                    [01;31m[K^~[m[K
+[4.907s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:364:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.907s]   364 |         elbow_set_position = msg[01;31m[K->[m[Kelbow * elbow_counts_per_rev;
+[4.907s]       |                                 [01;31m[K^~[m[K
+[4.908s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:365:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.908s]   365 |         roll_set_position = msg[01;31m[K->[m[Kroll * roll_counts_per_rev;
+[4.908s]       |                                [01;31m[K^~[m[K
+[4.908s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:367:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.909s]   367 |         wrist_roll_set_position = msg[01;31m[K->[m[Kwrist_roll * wrist_roll_counts_per_rev;
+[4.909s]       |                                      [01;31m[K^~[m[K
+[4.909s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:369:39:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.909s]   369 |         wrist_pitch_set_position = msg[01;31m[K->[m[Kwrist_pitch * wrist_pitch_counts_per_rev;
+[4.910s]       |                                       [01;31m[K^~[m[K
+[4.911s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:375:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+[4.912s]   375 |         [01;31m[KROS_INFO[m[K("BASE: %ld\tSHOULDER: %ld\tELBOW: %ld\tROLL: %ld\tWRIST_PITCH: %ld\tWRIST_ROLL: %ld\t", base_set_position, shoulder_set_position, elbow_set_position, roll_set_position, wrist_pitch_set_position, wrist_roll_set_position);
+[4.912s]       |         [01;31m[K^~~~~~~~[m[K
+[4.913s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:380:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.913s]   380 |         should_clear_faults = (msg[01;31m[K->[m[Kclear_faults);
+[4.913s]       |                                   [01;31m[K^~[m[K
+[4.913s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:381:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.914s]   381 |         should_reset = (msg[01;31m[K->[m[Kreset_controllers);
+[4.914s]       |                            [01;31m[K^~[m[K
+[4.914s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:382:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.914s]   382 |         should_calibrate = msg[01;31m[K->[m[Kcalibrate;
+[4.915s]       |                               [01;31m[K^~[m[K
+[4.915s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::relative_position_callback(const ArmControlMessage&)[m[K’:
+[4.915s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:392:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.915s]   392 |         base_set_position += msg[01;31m[K->[m[Kbase * base_counts_per_rev;
+[4.916s]       |                                 [01;31m[K^~[m[K
+[4.916s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:393:37:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.916s]   393 |         shoulder_set_position += msg[01;31m[K->[m[Kshoulder * shoulder_counts_per_rev;
+[4.916s]       |                                     [01;31m[K^~[m[K
+[4.917s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:394:34:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.917s]   394 |         elbow_set_position += msg[01;31m[K->[m[Kelbow * elbow_counts_per_rev;
+[4.917s]       |                                  [01;31m[K^~[m[K
+[4.917s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:395:33:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.918s]   395 |         roll_set_position += msg[01;31m[K->[m[Kroll * roll_counts_per_rev;
+[4.918s]       |                                 [01;31m[K^~[m[K
+[4.918s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:397:39:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.918s]   397 |         wrist_roll_set_position += msg[01;31m[K->[m[Kwrist_roll * wrist_roll_counts_per_rev;
+[4.918s]       |                                       [01;31m[K^~[m[K
+[4.919s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:399:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.919s]   399 |         wrist_pitch_set_position += msg[01;31m[K->[m[Kwrist_pitch * wrist_pitch_counts_per_rev;
+[4.919s]       |                                        [01;31m[K^~[m[K
+[4.919s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:407:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.920s]   407 |         should_clear_faults = (msg[01;31m[K->[m[Kclear_faults);
+[4.920s]       |                                   [01;31m[K^~[m[K
+[4.921s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:408:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.921s]   408 |         should_reset = (msg[01;31m[K->[m[Kreset_controllers);
+[4.921s]       |                            [01;31m[K^~[m[K
+[4.922s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:409:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst ArmControlMessage[m[K’ {aka ‘[01m[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >[m[K’}
+[4.922s]   409 |         should_calibrate = msg[01;31m[K->[m[Kcalibrate;
+[4.922s]       |                               [01;31m[K^~[m[K
+[6.060s] make[2]: *** [CMakeFiles/rover_arm.dir/build.make:63: CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o] Error 1
+[6.061s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rover_arm.dir/all] Error 2
+[6.061s] make: *** [Makefile:141: all] Error 2
+[6.071s] Invoked command in '/Rover_2022_2023/software/build/rover_arm' returned '2': CMAKE_PREFIX_PATH=/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm -- -j12 -l12

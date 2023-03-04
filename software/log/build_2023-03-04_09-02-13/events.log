@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.002166] (-) JobUnselected: {'identifier': 'ArduinoJson'}
+[0.002312] (-) JobUnselected: {'identifier': 'ground_station'}
+[0.002411] (-) JobUnselected: {'identifier': 'mr1718-arm-urdf_export'}
+[0.002499] (-) JobUnselected: {'identifier': 'nimbro_topic_transport'}
+[0.002580] (-) JobUnselected: {'identifier': 'rover_arm_control'}
+[0.003413] (-) JobUnselected: {'identifier': 'rover_arm_interface'}
+[0.003727] (-) JobUnselected: {'identifier': 'rover_arm_moveit_config'}
+[0.003868] (-) JobUnselected: {'identifier': 'rover_camera'}
+[0.007289] (-) JobUnselected: {'identifier': 'rover_control'}
+[0.007558] (-) JobUnselected: {'identifier': 'rover_main'}
+[0.008103] (-) JobUnselected: {'identifier': 'rover_odometry'}
+[0.008257] (-) JobUnselected: {'identifier': 'rover_science'}
+[0.008397] (-) JobUnselected: {'identifier': 'rover_status'}
+[0.008712] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.008814] (rover_arm) JobQueued: {'identifier': 'rover_arm', 'dependencies': OrderedDict([('rover_arm_interface', '/Rover_2022_2023/software/install/rover_arm_interface')])}
+[0.009147] (rover_arm) JobStarted: {'identifier': 'rover_arm'}
+[0.063460] (rover_arm) JobProgress: {'identifier': 'rover_arm', 'progress': 'cmake'}
+[0.066051] (rover_arm) Command: {'cmd': ['/usr/bin/cmake', '/Rover_2022_2023/software/ros_packages/rover_arm', '-DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm'], 'cwd': '/Rover_2022_2023/software/build/rover_arm', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('GIT_ASKPASS', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fabbe84-f6f6-46a6-9871-c9d7266da34a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/Rover_2022_2023/software/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-87c1aef3-f24c-4e58-964b-9f3c40a85e34.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-16e43ebfce.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/Rover_2022_2023/software/install/rover_arm_interface:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/Rover_2022_2023/software/build/rover_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.098993] (-) TimerEvent: {}
+[0.134874] (rover_arm) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199118] (-) TimerEvent: {}
+[0.220608] (rover_arm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299326] (-) TimerEvent: {}
+[0.399978] (-) TimerEvent: {}
+[0.500575] (-) TimerEvent: {}
+[0.601136] (-) TimerEvent: {}
+[0.701700] (-) TimerEvent: {}
+[0.802346] (-) TimerEvent: {}
+[0.812346] (rover_arm) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.902551] (-) TimerEvent: {}
+[0.938921] (rover_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.952138] (rover_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.002773] (-) TimerEvent: {}
+[1.103406] (-) TimerEvent: {}
+[1.204048] (-) TimerEvent: {}
+[1.304646] (-) TimerEvent: {}
+[1.405320] (-) TimerEvent: {}
+[1.462002] (rover_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.505510] (-) TimerEvent: {}
+[1.606247] (-) TimerEvent: {}
+[1.658883] (rover_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.664436] (rover_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.706413] (-) TimerEvent: {}
+[1.806916] (-) TimerEvent: {}
+[1.907611] (-) TimerEvent: {}
+[2.008206] (-) TimerEvent: {}
+[2.108929] (-) TimerEvent: {}
+[2.195218] (rover_arm) StdoutLine: {'line': b'-- Found rover_arm_interface: 0.0.0 (/Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake)\n'}
+[2.209088] (-) TimerEvent: {}
+[2.225544] (rover_arm) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[2.226269] (rover_arm) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[2.226613] (rover_arm) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.226913] (rover_arm) StderrLine: {'line': b'  CMakeLists.txt:26 (ament_target_dependencies)\n'}
+[2.227189] (rover_arm) StderrLine: {'line': b'\n'}
+[2.227460] (rover_arm) StderrLine: {'line': b'\n'}
+[2.233051] (rover_arm) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.233524] (rover_arm) StdoutLine: {'line': b'See also "/Rover_2022_2023/software/build/rover_arm/CMakeFiles/CMakeOutput.log".\n'}
+[2.233862] (rover_arm) StdoutLine: {'line': b'See also "/Rover_2022_2023/software/build/rover_arm/CMakeFiles/CMakeError.log".\n'}
+[2.255100] (rover_arm) CommandEnded: {'returncode': 1}
+[2.309330] (-) TimerEvent: {}
+[2.348269] (rover_arm) JobEnded: {'identifier': 'rover_arm', 'rc': 1}
+[2.351406] (-) EventReactorShutdown: {}

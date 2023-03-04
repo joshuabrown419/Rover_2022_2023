@@ -1,0 +1,2 @@
+Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm_interface -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface
+Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '1': /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm_interface -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface

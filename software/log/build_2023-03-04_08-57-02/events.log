@@ -1,0 +1,384 @@
+[0.000000] (-) TimerEvent: {}
+[0.001924] (-) JobUnselected: {'identifier': 'ArduinoJson'}
+[0.002067] (-) JobUnselected: {'identifier': 'ground_station'}
+[0.002162] (-) JobUnselected: {'identifier': 'mr1718-arm-urdf_export'}
+[0.002244] (-) JobUnselected: {'identifier': 'nimbro_topic_transport'}
+[0.003850] (-) JobUnselected: {'identifier': 'rover_arm'}
+[0.004046] (-) JobUnselected: {'identifier': 'rover_arm_control'}
+[0.004148] (-) JobUnselected: {'identifier': 'rover_arm_moveit_config'}
+[0.008021] (-) JobUnselected: {'identifier': 'rover_camera'}
+[0.008202] (-) JobUnselected: {'identifier': 'rover_control'}
+[0.008335] (-) JobUnselected: {'identifier': 'rover_main'}
+[0.008687] (-) JobUnselected: {'identifier': 'rover_odometry'}
+[0.008828] (-) JobUnselected: {'identifier': 'rover_science'}
+[0.009011] (-) JobUnselected: {'identifier': 'rover_status'}
+[0.009140] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.009289] (rover_arm_interface) JobQueued: {'identifier': 'rover_arm_interface', 'dependencies': OrderedDict()}
+[0.009434] (rover_arm_interface) JobStarted: {'identifier': 'rover_arm_interface'}
+[0.052543] (rover_arm_interface) JobProgress: {'identifier': 'rover_arm_interface', 'progress': 'cmake'}
+[0.055530] (rover_arm_interface) Command: {'cmd': ['/usr/bin/cmake', '/Rover_2022_2023/software/ros_packages/rover_arm_interface', '-DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface'], 'cwd': '/Rover_2022_2023/software/build/rover_arm_interface', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('GIT_ASKPASS', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fabbe84-f6f6-46a6-9871-c9d7266da34a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-87c1aef3-f24c-4e58-964b-9f3c40a85e34.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-16e43ebfce.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/Rover_2022_2023/software/build/rover_arm_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098764] (-) TimerEvent: {}
+[0.120135] (rover_arm_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.198925] (-) TimerEvent: {}
+[0.209452] (rover_arm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.210441] (rover_arm_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299091] (-) TimerEvent: {}
+[0.399738] (-) TimerEvent: {}
+[0.500378] (-) TimerEvent: {}
+[0.601032] (-) TimerEvent: {}
+[0.701661] (-) TimerEvent: {}
+[0.802341] (-) TimerEvent: {}
+[0.829044] (rover_arm_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.838011] (rover_arm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.853240] (rover_arm_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.902534] (-) TimerEvent: {}
+[1.003279] (-) TimerEvent: {}
+[1.103997] (-) TimerEvent: {}
+[1.204762] (-) TimerEvent: {}
+[1.305496] (-) TimerEvent: {}
+[1.406192] (-) TimerEvent: {}
+[1.439199] (rover_arm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.506398] (-) TimerEvent: {}
+[1.600647] (rover_arm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.606557] (-) TimerEvent: {}
+[1.707131] (-) TimerEvent: {}
+[1.807709] (-) TimerEvent: {}
+[1.908399] (-) TimerEvent: {}
+[2.008984] (-) TimerEvent: {}
+[2.029988] (rover_arm_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.109158] (-) TimerEvent: {}
+[2.209797] (-) TimerEvent: {}
+[2.310425] (-) TimerEvent: {}
+[2.411174] (-) TimerEvent: {}
+[2.436517] (rover_arm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.465374] (rover_arm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.511349] (-) TimerEvent: {}
+[2.540636] (rover_arm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.547520] (rover_arm_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.602815] (rover_arm_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.603675] (rover_arm_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.604161] (rover_arm_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.604564] (rover_arm_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.611512] (-) TimerEvent: {}
+[2.671786] (rover_arm_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.711762] (-) TimerEvent: {}
+[2.801762] (rover_arm_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.811833] (-) TimerEvent: {}
+[2.833920] (rover_arm_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.835976] (rover_arm_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.837058] (rover_arm_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.843303] (rover_arm_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.912053] (-) TimerEvent: {}
+[2.947124] (rover_arm_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.956775] (rover_arm_interface) StdoutLine: {'line': b'-- Build files have been written to: /Rover_2022_2023/software/build/rover_arm_interface\n'}
+[2.973021] (rover_arm_interface) CommandEnded: {'returncode': 0}
+[2.975003] (rover_arm_interface) JobProgress: {'identifier': 'rover_arm_interface', 'progress': 'build'}
+[2.980975] (rover_arm_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Rover_2022_2023/software/build/rover_arm_interface', '--', '-j12', '-l12'], 'cwd': '/Rover_2022_2023/software/build/rover_arm_interface', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('GIT_ASKPASS', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fabbe84-f6f6-46a6-9871-c9d7266da34a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-87c1aef3-f24c-4e58-964b-9f3c40a85e34.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-16e43ebfce.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/Rover_2022_2023/software/build/rover_arm_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.012230] (-) TimerEvent: {}
+[3.112426] (rover_arm_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.113103] (-) TimerEvent: {}
+[3.113506] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__cpp\x1b[0m\n'}
+[3.151277] (rover_arm_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.213319] (-) TimerEvent: {}
+[3.314032] (-) TimerEvent: {}
+[3.414741] (-) TimerEvent: {}
+[3.515386] (-) TimerEvent: {}
+[3.616073] (-) TimerEvent: {}
+[3.716735] (-) TimerEvent: {}
+[3.817292] (-) TimerEvent: {}
+[3.918349] (-) TimerEvent: {}
+[4.018970] (-) TimerEvent: {}
+[4.119589] (-) TimerEvent: {}
+[4.180799] (rover_arm_interface) StdoutLine: {'line': b'[  5%] Built target rover_arm_interface__cpp\n'}
+[4.214596] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_generator_c\x1b[0m\n'}
+[4.218104] (rover_arm_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.218555] (rover_arm_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.218816] (rover_arm_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.219632] (-) TimerEvent: {}
+[4.236910] (rover_arm_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_generator_c.dir/rosidl_generator_c/rover_arm_interface/msg/detail/arm_control_message__functions.c.o\x1b[0m\n'}
+[4.249039] (rover_arm_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_generator_c.dir/rosidl_generator_c/rover_arm_interface/msg/detail/arm_status_message__functions.c.o\x1b[0m\n'}
+[4.319870] (-) TimerEvent: {}
+[4.387786] (rover_arm_interface) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library librover_arm_interface__rosidl_generator_c.so\x1b[0m\n'}
+[4.420016] (-) TimerEvent: {}
+[4.511415] (rover_arm_interface) StdoutLine: {'line': b'[ 20%] Built target rover_arm_interface__rosidl_generator_c\n'}
+[4.520204] (-) TimerEvent: {}
+[4.548785] (rover_arm_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.549928] (rover_arm_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.620392] (-) TimerEvent: {}
+[4.721136] (-) TimerEvent: {}
+[4.821910] (-) TimerEvent: {}
+[4.922633] (-) TimerEvent: {}
+[5.023379] (-) TimerEvent: {}
+[5.084833] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.123599] (-) TimerEvent: {}
+[5.150485] (rover_arm_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rover_arm_interface/msg/arm_status_message__type_support.cpp.o\x1b[0m\n'}
+[5.151345] (rover_arm_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rover_arm_interface/msg/arm_control_message__type_support.cpp.o\x1b[0m\n'}
+[5.180825] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.207359] (rover_arm_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rover_arm_interface/msg/detail/arm_status_message__type_support.cpp.o\x1b[0m\n'}
+[5.207741] (rover_arm_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rover_arm_interface/msg/detail/arm_control_message__type_support.cpp.o\x1b[0m\n'}
+[5.223691] (-) TimerEvent: {}
+[5.249854] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.282953] (rover_arm_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rover_arm_interface/msg/detail/dds_fastrtps/arm_control_message__type_support.cpp.o\x1b[0m\n'}
+[5.283689] (rover_arm_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rover_arm_interface/msg/detail/dds_fastrtps/arm_status_message__type_support.cpp.o\x1b[0m\n'}
+[5.323920] (-) TimerEvent: {}
+[5.424612] (-) TimerEvent: {}
+[5.464802] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_c\x1b[0m\n'}
+[5.524796] (-) TimerEvent: {}
+[5.534744] (rover_arm_interface) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/rover_arm_interface/msg/arm_control_message__type_support.cpp.o\x1b[0m\n'}
+[5.575892] (rover_arm_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/rover_arm_interface/msg/arm_status_message__type_support.cpp.o\x1b[0m\n'}
+[5.625027] (-) TimerEvent: {}
+[5.700033] (rover_arm_interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.718493] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.725198] (-) TimerEvent: {}
+[5.803142] (rover_arm_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rover_arm_interface/msg/detail/arm_status_message__type_support.c.o\x1b[0m\n'}
+[5.825415] (-) TimerEvent: {}
+[5.834054] (rover_arm_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rover_arm_interface/msg/detail/arm_control_message__type_support.c.o\x1b[0m\n'}
+[5.926663] (-) TimerEvent: {}
+[5.983894] (rover_arm_interface) StdoutLine: {'line': b'[ 53%] Built target rover_arm_interface__rosidl_typesupport_c\n'}
+[6.019528] (rover_arm_interface) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library librover_arm_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.026826] (-) TimerEvent: {}
+[6.127711] (-) TimerEvent: {}
+[6.169741] (rover_arm_interface) StdoutLine: {'line': b'[ 56%] Built target rover_arm_interface__rosidl_typesupport_introspection_c\n'}
+[6.227950] (-) TimerEvent: {}
+[6.328902] (-) TimerEvent: {}
+[6.429811] (-) TimerEvent: {}
+[6.500173] (rover_arm_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.530033] (-) TimerEvent: {}
+[6.627467] (rover_arm_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.630180] (-) TimerEvent: {}
+[6.646184] (rover_arm_interface) StdoutLine: {'line': b'[ 61%] Built target rover_arm_interface__rosidl_typesupport_cpp\n'}
+[6.730425] (-) TimerEvent: {}
+[6.776773] (rover_arm_interface) StdoutLine: {'line': b'[ 61%] Built target rover_arm_interface__rosidl_typesupport_introspection_cpp\n'}
+[6.830637] (-) TimerEvent: {}
+[6.931375] (-) TimerEvent: {}
+[7.031981] (-) TimerEvent: {}
+[7.132631] (-) TimerEvent: {}
+[7.224254] (rover_arm_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.232784] (-) TimerEvent: {}
+[7.333342] (-) TimerEvent: {}
+[7.433950] (-) TimerEvent: {}
+[7.451835] (rover_arm_interface) StdoutLine: {'line': b'[ 64%] Built target rover_arm_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[7.485589] (rover_arm_interface) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.534116] (-) TimerEvent: {}
+[7.634625] (-) TimerEvent: {}
+[7.735217] (-) TimerEvent: {}
+[7.835828] (-) TimerEvent: {}
+[7.936358] (-) TimerEvent: {}
+[8.036919] (-) TimerEvent: {}
+[8.137526] (-) TimerEvent: {}
+[8.238096] (-) TimerEvent: {}
+[8.338685] (-) TimerEvent: {}
+[8.439243] (-) TimerEvent: {}
+[8.452196] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.507969] (rover_arm_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rover_arm_interface/msg/detail/arm_control_message__type_support_c.cpp.o\x1b[0m\n'}
+[8.508782] (rover_arm_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rover_arm_interface/msg/detail/arm_status_message__type_support_c.cpp.o\x1b[0m\n'}
+[8.539418] (-) TimerEvent: {}
+[8.640114] (-) TimerEvent: {}
+[8.740890] (-) TimerEvent: {}
+[8.841564] (-) TimerEvent: {}
+[8.942230] (-) TimerEvent: {}
+[9.042807] (-) TimerEvent: {}
+[9.143450] (-) TimerEvent: {}
+[9.244080] (-) TimerEvent: {}
+[9.344794] (-) TimerEvent: {}
+[9.445422] (-) TimerEvent: {}
+[9.546070] (-) TimerEvent: {}
+[9.646718] (-) TimerEvent: {}
+[9.747361] (-) TimerEvent: {}
+[9.775347] (rover_arm_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.847558] (-) TimerEvent: {}
+[9.948182] (-) TimerEvent: {}
+[10.048832] (-) TimerEvent: {}
+[10.055033] (rover_arm_interface) StdoutLine: {'line': b'[ 74%] Built target rover_arm_interface__rosidl_typesupport_fastrtps_c\n'}
+[10.092332] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface\x1b[0m\n'}
+[10.127100] (rover_arm_interface) StdoutLine: {'line': b'[ 74%] Built target rover_arm_interface\n'}
+[10.148934] (-) TimerEvent: {}
+[10.157987] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__py\x1b[0m\n'}
+[10.195080] (rover_arm_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.249139] (-) TimerEvent: {}
+[10.349713] (-) TimerEvent: {}
+[10.450295] (-) TimerEvent: {}
+[10.550818] (-) TimerEvent: {}
+[10.651346] (-) TimerEvent: {}
+[10.751805] (-) TimerEvent: {}
+[10.852181] (-) TimerEvent: {}
+[10.952704] (-) TimerEvent: {}
+[11.053238] (-) TimerEvent: {}
+[11.153755] (-) TimerEvent: {}
+[11.254308] (-) TimerEvent: {}
+[11.354877] (-) TimerEvent: {}
+[11.455408] (-) TimerEvent: {}
+[11.555917] (-) TimerEvent: {}
+[11.656499] (-) TimerEvent: {}
+[11.757055] (-) TimerEvent: {}
+[11.857612] (-) TimerEvent: {}
+[11.929540] (rover_arm_interface) StdoutLine: {'line': b'[ 76%] Built target rover_arm_interface__py\n'}
+[11.957815] (-) TimerEvent: {}
+[11.967325] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__python\x1b[0m\n'}
+[12.038138] (rover_arm_interface) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__python.dir/rosidl_generator_py/rover_arm_interface/msg/_arm_control_message_s.c.o\x1b[0m\n'}
+[12.044206] (rover_arm_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__python.dir/rosidl_generator_py/rover_arm_interface/msg/_arm_status_message_s.c.o\x1b[0m\n'}
+[12.058026] (-) TimerEvent: {}
+[12.158665] (-) TimerEvent: {}
+[12.259161] (-) TimerEvent: {}
+[12.359793] (-) TimerEvent: {}
+[12.373815] (rover_arm_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rover_arm_interface/librover_arm_interface__python.so\x1b[0m\n'}
+[12.459991] (-) TimerEvent: {}
+[12.492714] (rover_arm_interface) StdoutLine: {'line': b'[ 84%] Built target rover_arm_interface__python\n'}
+[12.528409] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.529203] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.529737] (rover_arm_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.560205] (-) TimerEvent: {}
+[12.594386] (rover_arm_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rover_arm_interface/_rover_arm_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.596707] (rover_arm_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rover_arm_interface/_rover_arm_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.600567] (rover_arm_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rover_arm_interface/_rover_arm_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.660421] (-) TimerEvent: {}
+[12.761237] (-) TimerEvent: {}
+[12.862326] (-) TimerEvent: {}
+[12.889898] (rover_arm_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.894800] (rover_arm_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.899234] (rover_arm_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.962532] (-) TimerEvent: {}
+[13.013122] (rover_arm_interface) StdoutLine: {'line': b'[100%] Built target rover_arm_interface__rosidl_typesupport_c__pyext\n'}
+[13.019994] (rover_arm_interface) StdoutLine: {'line': b'[100%] Built target rover_arm_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[13.062719] (-) TimerEvent: {}
+[13.114238] (rover_arm_interface) StdoutLine: {'line': b'[100%] Built target rover_arm_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.151380] (rover_arm_interface) CommandEnded: {'returncode': 0}
+[13.162944] (-) TimerEvent: {}
+[13.263695] (-) TimerEvent: {}
+[13.345131] (rover_arm_interface) JobProgress: {'identifier': 'rover_arm_interface', 'progress': 'install'}
+[13.364007] (-) TimerEvent: {}
+[13.383325] (rover_arm_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Rover_2022_2023/software/build/rover_arm_interface'], 'cwd': '/Rover_2022_2023/software/build/rover_arm_interface', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('GIT_ASKPASS', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fabbe84-f6f6-46a6-9871-c9d7266da34a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-87c1aef3-f24c-4e58-964b-9f3c40a85e34.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-16e43ebfce.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/Rover_2022_2023/software/build/rover_arm_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.413128] (rover_arm_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.413770] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/rosidl_interfaces/rover_arm_interface\n'}
+[13.414403] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface\n'}
+[13.415046] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg\n'}
+[13.415505] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_control_message.h\n'}
+[13.415996] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail\n'}
+[13.416364] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__functions.c\n'}
+[13.416744] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__functions.c\n'}
+[13.417124] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__functions.h\n'}
+[13.417493] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__struct.h\n'}
+[13.417858] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__type_support.h\n'}
+[13.418225] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__functions.h\n'}
+[13.418616] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__struct.h\n'}
+[13.418988] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__type_support.h\n'}
+[13.419235] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.419597] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_status_message.h\n'}
+[13.419837] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/library_path.sh\n'}
+[13.420195] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/library_path.dsv\n'}
+[13.420679] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_generator_c.so\n'}
+[13.422042] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_generator_c.so" to ""\n'}
+[13.422645] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface\n'}
+[13.422991] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg\n'}
+[13.423326] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail\n'}
+[13.423624] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_fastrtps_c.h\n'}
+[13.423878] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_fastrtps_c.h\n'}
+[13.424244] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.424497] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[13.425724] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.426140] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface\n'}
+[13.426572] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg\n'}
+[13.426822] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail\n'}
+[13.434088] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/dds_fastrtps\n'}
+[13.434606] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.435067] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.435451] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.435870] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.437088] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.437624] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface\n'}
+[13.438002] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg\n'}
+[13.438389] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail\n'}
+[13.438774] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_introspection_c.h\n'}
+[13.439115] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__type_support.c\n'}
+[13.439495] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_introspection_c.h\n'}
+[13.439735] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__type_support.c\n'}
+[13.440081] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.440335] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_c.so\n'}
+[13.441144] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.441534] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_c.so\n'}
+[13.442736] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_c.so" to ""\n'}
+[13.443273] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface\n'}
+[13.443637] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg\n'}
+[13.443997] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail\n'}
+[13.444370] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__builder.hpp\n'}
+[13.444756] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__traits.hpp\n'}
+[13.445150] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__struct.hpp\n'}
+[13.445508] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__struct.hpp\n'}
+[13.445856] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__builder.hpp\n'}
+[13.446214] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__traits.hpp\n'}
+[13.446467] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_control_message.hpp\n'}
+[13.447027] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_status_message.hpp\n'}
+[13.447286] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface\n'}
+[13.447628] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg\n'}
+[13.447980] (rover_arm_interface) StdoutLine: {'line': b'-- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail\n'}
+[13.448375] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__type_support.cpp\n'}
+[13.448624] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__type_support.cpp\n'}
+[13.448880] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.449240] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.449492] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[13.450141] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.450532] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_cpp.so\n'}
+[13.451564] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[13.451963] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/pythonpath.sh\n'}
+[13.452492] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/pythonpath.dsv\n'}
+[13.453325] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/__init__.py\n'}
+[13.464111] (-) TimerEvent: {}
+[13.554427] (rover_arm_interface) StdoutLine: {'line': b"Compiling '/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/__init__.py'...\n"}
+[13.564293] (-) TimerEvent: {}
+[13.566100] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg\n'}
+[13.566645] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_status_message.py\n'}
+[13.567110] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/__init__.py\n'}
+[13.567729] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_control_message_s.c\n'}
+[13.568310] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_control_message.py\n'}
+[13.568581] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_status_message_s.c\n'}
+[13.569216] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.570865] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.571710] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.573470] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.574233] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.575855] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.576459] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__python.so\n'}
+[13.577364] (rover_arm_interface) StdoutLine: {'line': b'-- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__python.so" to ""\n'}
+[13.578032] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmControlMessage.idl\n'}
+[13.578697] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmStatusMessage.idl\n'}
+[13.579317] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmControlMessage.msg\n'}
+[13.580023] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmStatusMessage.msg\n'}
+[13.580588] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/package_run_dependencies/rover_arm_interface\n'}
+[13.581091] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/parent_prefix_path/rover_arm_interface\n'}
+[13.581667] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/ament_prefix_path.sh\n'}
+[13.582199] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/ament_prefix_path.dsv\n'}
+[13.582763] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/path.sh\n'}
+[13.583355] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/path.dsv\n'}
+[13.583952] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.bash\n'}
+[13.584444] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.sh\n'}
+[13.584905] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.zsh\n'}
+[13.585443] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.dsv\n'}
+[13.585916] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/package.dsv\n'}
+[13.586280] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/packages/rover_arm_interface\n'}
+[13.586907] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_generator_cExport.cmake\n'}
+[13.587480] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.588139] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.588755] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.589376] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cExport.cmake\n'}
+[13.589915] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.590591] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_generator_cppExport.cmake\n'}
+[13.591318] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.591936] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.592821] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cppExport.cmake\n'}
+[13.593359] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.594045] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[13.594710] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.595335] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.595974] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.596594] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.597031] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.597469] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.597872] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interfaceConfig.cmake\n'}
+[13.598232] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interfaceConfig-version.cmake\n'}
+[13.598839] (rover_arm_interface) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/package.xml\n'}
+[13.604972] (rover_arm_interface) CommandEnded: {'returncode': 0}
+[13.664573] (-) TimerEvent: {}
+[13.765296] (-) TimerEvent: {}
+[13.867974] (-) TimerEvent: {}
+[13.906440] (rover_arm_interface) JobEnded: {'identifier': 'rover_arm_interface', 'rc': 0}
+[13.910147] (-) EventReactorShutdown: {}

@@ -1,0 +1,240 @@
+[0.060s] Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm_interface -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface
+[0.271s] -- The C compiler identification is GNU 9.4.0
+[0.455s] -- The CXX compiler identification is GNU 9.4.0
+[0.473s] -- Check for working C compiler: /usr/bin/cc
+[0.739s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.743s] -- Detecting C compiler ABI info
+[0.999s] -- Detecting C compiler ABI info - done
+[1.051s] -- Detecting C compile features
+[1.053s] -- Detecting C compile features - done
+[1.065s] -- Check for working CXX compiler: /usr/bin/c++
+[1.360s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.364s] -- Detecting CXX compiler ABI info
+[1.635s] -- Detecting CXX compiler ABI info - done
+[1.683s] -- Detecting CXX compile features
+[1.685s] -- Detecting CXX compile features - done
+[1.695s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.775s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.388s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.428s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.786s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.926s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.432s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.843s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.347s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.353s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.435s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.436s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.436s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.505s] -- Found PythonExtra: .so  
+[4.649s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.741s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.749s] -- Added test 'lint_cmake' to check CMake code style
+[4.753s] -- Added test 'xmllint' to check XML markup files
+[4.773s] -- Configuring done
+[4.897s] -- Generating done
+[4.907s] -- Build files have been written to: /Rover_2022_2023/software/build/rover_arm_interface
+[4.922s] Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm_interface -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface
+[4.932s] Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm_interface -- -j12 -l12
+[5.072s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.072s] [35m[1mScanning dependencies of target rover_arm_interface__cpp[0m
+[5.110s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.190s] [  5%] Built target rover_arm_interface__cpp
+[6.213s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_generator_c[0m
+[6.227s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.228s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.233s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.263s] [ 17%] [32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_generator_c.dir/rosidl_generator_c/rover_arm_interface/msg/detail/arm_status_message__functions.c.o[0m
+[6.263s] [ 17%] [32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_generator_c.dir/rosidl_generator_c/rover_arm_interface/msg/detail/arm_control_message__functions.c.o[0m
+[6.444s] [ 20%] [32m[1mLinking C shared library librover_arm_interface__rosidl_generator_c.so[0m
+[6.572s] [ 20%] Built target rover_arm_interface__rosidl_generator_c
+[6.611s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.612s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.186s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_cpp[0m
+[7.232s] [ 28%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rover_arm_interface/msg/arm_status_message__type_support.cpp.o[0m
+[7.247s] [ 30%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rover_arm_interface/msg/arm_control_message__type_support.cpp.o[0m
+[7.277s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_introspection_cpp[0m
+[7.345s] [ 35%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rover_arm_interface/msg/detail/arm_control_message__type_support.cpp.o[0m
+[7.345s] [ 35%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rover_arm_interface/msg/detail/arm_status_message__type_support.cpp.o[0m
+[7.410s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_fastrtps_cpp[0m
+[7.475s] [ 38%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rover_arm_interface/msg/detail/dds_fastrtps/arm_status_message__type_support.cpp.o[0m
+[7.482s] [ 41%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rover_arm_interface/msg/detail/dds_fastrtps/arm_control_message__type_support.cpp.o[0m
+[7.648s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_c[0m
+[7.686s] [ 43%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/rover_arm_interface/msg/arm_control_message__type_support.cpp.o[0m
+[7.686s] [ 46%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/rover_arm_interface/msg/arm_status_message__type_support.cpp.o[0m
+[7.687s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_introspection_c[0m
+[7.736s] [ 48%] [32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rover_arm_interface/msg/detail/arm_control_message__type_support.c.o[0m
+[7.752s] [ 51%] [32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rover_arm_interface/msg/detail/arm_status_message__type_support.c.o[0m
+[7.854s] [ 53%] [32m[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_c.so[0m
+[7.915s] [ 56%] [32m[1mLinking C shared library librover_arm_interface__rosidl_typesupport_introspection_c.so[0m
+[8.036s] [ 56%] Built target rover_arm_interface__rosidl_typesupport_introspection_c
+[8.081s] [ 56%] Built target rover_arm_interface__rosidl_typesupport_c
+[8.558s] [ 58%] [32m[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_cpp.so[0m
+[8.712s] [ 58%] Built target rover_arm_interface__rosidl_typesupport_cpp
+[8.886s] [ 61%] [32m[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_introspection_cpp.so[0m
+[9.033s] [ 61%] Built target rover_arm_interface__rosidl_typesupport_introspection_cpp
+[9.306s] [ 64%] [32m[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.579s] [ 64%] Built target rover_arm_interface__rosidl_typesupport_fastrtps_cpp
+[9.612s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.525s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_fastrtps_c[0m
+[10.576s] [ 71%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rover_arm_interface/msg/detail/arm_control_message__type_support_c.cpp.o[0m
+[10.577s] [ 71%] [32mBuilding CXX object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rover_arm_interface/msg/detail/arm_status_message__type_support_c.cpp.o[0m
+[11.797s] [ 74%] [32m[1mLinking CXX shared library librover_arm_interface__rosidl_typesupport_fastrtps_c.so[0m
+[12.069s] [ 74%] Built target rover_arm_interface__rosidl_typesupport_fastrtps_c
+[12.106s] [35m[1mScanning dependencies of target rover_arm_interface[0m
+[12.140s] [ 74%] Built target rover_arm_interface
+[12.177s] [35m[1mScanning dependencies of target rover_arm_interface__py[0m
+[12.213s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.037s] [ 76%] Built target rover_arm_interface__py
+[14.070s] [35m[1mScanning dependencies of target rover_arm_interface__python[0m
+[14.140s] [ 82%] [32mBuilding C object CMakeFiles/rover_arm_interface__python.dir/rosidl_generator_py/rover_arm_interface/msg/_arm_control_message_s.c.o[0m
+[14.140s] [ 82%] [32mBuilding C object CMakeFiles/rover_arm_interface__python.dir/rosidl_generator_py/rover_arm_interface/msg/_arm_status_message_s.c.o[0m
+[14.488s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/rover_arm_interface/librover_arm_interface__python.so[0m
+[14.611s] [ 84%] Built target rover_arm_interface__python
+[14.646s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_c__pyext[0m
+[14.647s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_introspection_c__pyext[0m
+[14.647s] [35m[1mScanning dependencies of target rover_arm_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[14.711s] [ 87%] [32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rover_arm_interface/_rover_arm_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.723s] [ 89%] [32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rover_arm_interface/_rover_arm_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[14.725s] [ 92%] [32mBuilding C object CMakeFiles/rover_arm_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rover_arm_interface/_rover_arm_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.014s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.026s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.028s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.138s] [100%] Built target rover_arm_interface__rosidl_typesupport_introspection_c__pyext
+[15.148s] [100%] Built target rover_arm_interface__rosidl_typesupport_c__pyext
+[15.247s] [100%] Built target rover_arm_interface__rosidl_typesupport_fastrtps_c__pyext
+[15.285s] Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm_interface -- -j12 -l12
+[15.527s] Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/rover_arm_interface
+[15.556s] -- Install configuration: ""
+[15.556s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/rosidl_interfaces/rover_arm_interface
+[15.557s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface
+[15.558s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg
+[15.558s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_control_message.h
+[15.559s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail
+[15.559s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__functions.c
+[15.559s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__functions.c
+[15.560s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__functions.h
+[15.560s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__struct.h
+[15.560s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__type_support.h
+[15.561s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__functions.h
+[15.561s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__struct.h
+[15.561s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__type_support.h
+[15.562s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_generator_c__visibility_control.h
+[15.562s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_status_message.h
+[15.562s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/library_path.sh
+[15.562s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/library_path.dsv
+[15.563s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_generator_c.so
+[15.564s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_generator_c.so" to ""
+[15.564s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface
+[15.565s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg
+[15.565s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail
+[15.565s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_fastrtps_c.h
+[15.566s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_fastrtps_c.h
+[15.566s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.567s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_c.so
+[15.568s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[15.569s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface
+[15.570s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg
+[15.570s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail
+[15.570s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/dds_fastrtps
+[15.570s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_fastrtps_cpp.hpp
+[15.571s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_fastrtps_cpp.hpp
+[15.571s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.571s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_cpp.so
+[15.572s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.573s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface
+[15.573s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg
+[15.573s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail
+[15.574s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_introspection_c.h
+[15.574s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__type_support.c
+[15.574s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_introspection_c.h
+[15.575s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__type_support.c
+[15.575s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.577s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_c.so
+[15.578s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_c.so" to ""
+[15.579s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_c.so
+[15.581s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_c.so" to ""
+[15.581s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface
+[15.582s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg
+[15.582s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail
+[15.582s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__builder.hpp
+[15.583s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__traits.hpp
+[15.583s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__struct.hpp
+[15.584s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__struct.hpp
+[15.584s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__builder.hpp
+[15.585s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__traits.hpp
+[15.585s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_control_message.hpp
+[15.586s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_status_message.hpp
+[15.587s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface
+[15.587s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg
+[15.587s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail
+[15.587s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__type_support.cpp
+[15.588s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__type_support.cpp
+[15.588s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__rosidl_typesupport_introspection_cpp.hpp
+[15.588s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__rosidl_typesupport_introspection_cpp.hpp
+[15.589s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_cpp.so
+[15.590s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[15.591s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_cpp.so
+[15.592s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__rosidl_typesupport_cpp.so" to ""
+[15.593s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/pythonpath.sh
+[15.593s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/pythonpath.dsv
+[15.594s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/__init__.py
+[15.701s] Compiling '/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/__init__.py'...
+[15.716s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg
+[15.717s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_status_message.py
+[15.717s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/__init__.py
+[15.718s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_control_message_s.c
+[15.718s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_control_message.py
+[15.718s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/msg/_arm_status_message_s.c
+[15.720s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[15.722s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[15.723s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[15.726s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[15.727s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[15.729s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages/rover_arm_interface/rover_arm_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[15.729s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__python.so
+[15.731s] -- Set runtime path of "/Rover_2022_2023/software/install/rover_arm_interface/lib/librover_arm_interface__python.so" to ""
+[15.731s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmControlMessage.idl
+[15.732s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmStatusMessage.idl
+[15.732s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmControlMessage.msg
+[15.733s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/msg/ArmStatusMessage.msg
+[15.733s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/package_run_dependencies/rover_arm_interface
+[15.734s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/parent_prefix_path/rover_arm_interface
+[15.734s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/ament_prefix_path.sh
+[15.734s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/ament_prefix_path.dsv
+[15.735s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/path.sh
+[15.735s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/environment/path.dsv
+[15.735s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.bash
+[15.736s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.sh
+[15.737s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.zsh
+[15.738s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/local_setup.dsv
+[15.739s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/package.dsv
+[15.739s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/ament_index/resource_index/packages/rover_arm_interface
+[15.740s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_generator_cExport.cmake
+[15.741s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_generator_cExport-noconfig.cmake
+[15.742s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cExport.cmake
+[15.743s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.744s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cExport.cmake
+[15.744s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cExport-noconfig.cmake
+[15.745s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_generator_cppExport.cmake
+[15.747s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cppExport.cmake
+[15.747s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.748s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cppExport.cmake
+[15.749s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[15.749s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rosidl_cmake-extras.cmake
+[15.750s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.751s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[15.751s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_targets-extras.cmake
+[15.752s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.752s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.753s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.754s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interfaceConfig.cmake
+[15.754s] -- Installing: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake/rover_arm_interfaceConfig-version.cmake
+[15.755s] -- Up-to-date: /Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/package.xml
+[15.762s] Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/rover_arm_interface

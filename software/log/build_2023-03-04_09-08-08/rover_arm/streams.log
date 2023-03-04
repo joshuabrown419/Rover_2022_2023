@@ -1,0 +1,22 @@
+[0.074s] Invoking command in '/Rover_2022_2023/software/build/rover_arm': CMAKE_PREFIX_PATH=/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm -- -j12 -l12
+[0.181s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.266s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.831s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.960s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.612s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.117s] -- Found rover_arm_interface: 0.0.0 (/Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake)
+[2.350s] -- Configuring done
+[2.377s] -- Generating done
+[2.382s] -- Build files have been written to: /Rover_2022_2023/software/build/rover_arm
+[2.495s] [ 50%] [32mBuilding CXX object CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o[0m
+[2.653s] [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[2.653s]     6 | #include [01;31m[K<ros/ros.h>[m[K
+[2.654s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.654s] compilation terminated.
+[2.666s] make[2]: *** [CMakeFiles/rover_arm.dir/build.make:63: CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o] Error 1
+[2.667s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rover_arm.dir/all] Error 2
+[2.668s] make: *** [Makefile:141: all] Error 2
+[2.676s] Invoked command in '/Rover_2022_2023/software/build/rover_arm' returned '2': CMAKE_PREFIX_PATH=/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm -- -j12 -l12

@@ -3,12 +3,11 @@
 #include <unistd.h>
 #include <algorithm>
 
-#include <ros/ros.h>
-#include <ros/console.h>
+#include <rclcpp/rclcpp.hpp>
 
 #include "simplemotion/simplemotion.h"
-#include <rover_arm/ArmControlMessage.h>
-#include <rover_arm/ArmStatusMessage.h>
+#include <rover_arm_interface/msg/arm_control_message.hpp>
+#include <rover_arm_interface/msg/arm_status_message.hpp>
 
 
 using namespace std;
@@ -82,11 +81,13 @@ const smint32 wrist_roll_counts_per_rev = 1638400;
 class RoverArm {
 public:
     RoverArm(int argc, char **argv) {
-        ros::init(argc, argv, "rover_arm");
+        rclcpp::init(argc, argv);
 
-        node_handle = new ros::NodeHandle("~");
+        auto node = rclcpp::Node::make_shared("rover_arm");
 
-        node_handle->param("port", arm_port, default_port);
+        // Look at https://docs.ros2.org/dashing/api/rclcpp/classrclcpp_1_1Node.html
+        node->param("port", arm_port, default_port);
+        // node_handle->param("port", arm_port, default_port);
 
         arm_bus_handle = smOpenBus(arm_port.c_str());
 
@@ -102,7 +103,7 @@ public:
         relative_position_control_subscriber = node_handle->subscribe(default_relative_position_control_topic, 1,
                                                                       &RoverArm::relative_position_callback, this);
 
-        status_publisher = node_handle->advertise<rover_arm::ArmStatusMessage>(default_arm_status_topic, 1);
+        status_publisher = node_handle->advertise<rover_arm_interface::ArmStatusMessage>(default_arm_status_topic, 1);
 
         base_min_rev_counts = smint32(base_min_rev * base_counts_per_rev);
         base_max_rev_counts = smint32(base_max_rev * base_counts_per_rev);
@@ -125,7 +126,7 @@ public:
         char dir = 0;
 
 
-        while (ros::ok()) {
+        while (rclcpp::ok()) {
             if (!arm_successfully_connected) { return; }
 
             clear_faults();
@@ -134,7 +135,7 @@ public:
             set_joint_positions();
             reset_controllers();
 
-            ros::spinOnce();
+            rclcpp::spinOnce();
         }
 
 
@@ -356,7 +357,7 @@ public:
         wrist_pitch_set_position = min(max(wrist_pitch_set_position, wrist_pitch_min_rev_counts), wrist_pitch_max_rev_counts);
     }
 
-    void absolute_position_callback(const rover_arm::ArmControlMessage::ConstPtr &msg) {
+    void absolute_position_callback(const rover_arm_interface::msg::ArmControlMessage::ConstPtr &msg) {
         if (!received_first_joint_position_update) { return; }
 
 
@@ -387,7 +388,7 @@ public:
         }
     }
 
-    void relative_position_callback(const rover_arm::ArmControlMessage::ConstPtr &msg) {
+    void relative_position_callback(const rover_arm_interface::msg::ArmControlMessage::ConstPtr &msg) {
         if (!received_first_joint_position_update) { return; }
 
         base_set_position += msg->base * base_counts_per_rev;
@@ -416,17 +417,18 @@ public:
     }
 
 private:
-    ros::NodeHandle *node_handle;
+    rclcpp::NodeHandle *node_handle;
 
     string arm_port;
     smbus arm_bus_handle;
     bool arm_successfully_connected = false;
 
-    ros::Publisher status_publisher;
-    rover_arm::ArmStatusMessage status_message;
+    rclcpp::Publisher status_publisher;
+    rover_arm_interface::msg::ArmStatusMessage status_message;
 
-    ros::Subscriber absolute_position_control_subscriber;
-    ros::Subscriber relative_position_control_subscriber;
+    // https://docs.ros.org/en/foxy/The-ROS2-Project/Contributing/Migration-Guide.html#changing-c-library-calls
+    rclcpp::Subscriber absolute_position_control_subscriber;
+    rclcpp::Subscriber relative_position_control_subscriber;
 
     bool received_first_joint_position_update = false;
 

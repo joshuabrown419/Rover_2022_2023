@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000738] (-) JobUnselected: {'identifier': 'ArduinoJson'}
+[0.001463] (-) JobUnselected: {'identifier': 'ground_station'}
+[0.001593] (-) JobUnselected: {'identifier': 'mr1718-arm-urdf_export'}
+[0.002861] (-) JobUnselected: {'identifier': 'nimbro_topic_transport'}
+[0.002973] (-) JobUnselected: {'identifier': 'rover_arm'}
+[0.003070] (-) JobUnselected: {'identifier': 'rover_arm_control'}
+[0.004292] (-) JobUnselected: {'identifier': 'rover_arm_moveit_config'}
+[0.004518] (-) JobUnselected: {'identifier': 'rover_camera'}
+[0.004616] (-) JobUnselected: {'identifier': 'rover_control'}
+[0.004772] (-) JobUnselected: {'identifier': 'rover_main'}
+[0.004866] (-) JobUnselected: {'identifier': 'rover_odometry'}
+[0.004956] (-) JobUnselected: {'identifier': 'rover_science'}
+[0.005042] (-) JobUnselected: {'identifier': 'rover_status'}
+[0.005128] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.005224] (rover_arm_interface) JobQueued: {'identifier': 'rover_arm_interface', 'dependencies': OrderedDict()}
+[0.007983] (rover_arm_interface) JobStarted: {'identifier': 'rover_arm_interface'}
+[0.029152] (rover_arm_interface) JobProgress: {'identifier': 'rover_arm_interface', 'progress': 'cmake'}
+[0.029971] (rover_arm_interface) Command: {'cmd': ['/usr/bin/cmake', '/Rover_2022_2023/software/ros_packages/rover_arm_interface', '-DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface'], 'cwd': '/Rover_2022_2023/software/build/rover_arm_interface', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('GIT_ASKPASS', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fabbe84-f6f6-46a6-9871-c9d7266da34a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-87c1aef3-f24c-4e58-964b-9f3c40a85e34.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-16e43ebfce.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/Rover_2022_2023/software/build/rover_arm_interface'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1')]), 'shell': False}
+[0.098464] (-) TimerEvent: {}
+[0.146958] (rover_arm_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.198611] (-) TimerEvent: {}
+[0.270385] (rover_arm_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.282321] (rover_arm_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298810] (-) TimerEvent: {}
+[0.399492] (-) TimerEvent: {}
+[0.500255] (-) TimerEvent: {}
+[0.511253] (rover_arm_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.523436] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600486] (-) TimerEvent: {}
+[0.701269] (-) TimerEvent: {}
+[0.801661] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.802265] (-) TimerEvent: {}
+[0.869881] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.872262] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.880694] (rover_arm_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.902438] (-) TimerEvent: {}
+[1.003068] (-) TimerEvent: {}
+[1.103742] (-) TimerEvent: {}
+[1.158694] (rover_arm_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.163393] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.203955] (-) TimerEvent: {}
+[1.304600] (-) TimerEvent: {}
+[1.405273] (-) TimerEvent: {}
+[1.449120] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.502376] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.505012] (rover_arm_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.505426] (-) TimerEvent: {}
+[1.526338] (rover_arm_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.590027] (rover_arm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.590651] (rover_arm_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.605603] (-) TimerEvent: {}
+[1.706162] (-) TimerEvent: {}
+[1.806786] (-) TimerEvent: {}
+[1.907366] (-) TimerEvent: {}
+[2.007898] (-) TimerEvent: {}
+[2.108487] (-) TimerEvent: {}
+[2.203221] (rover_arm_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.206668] (rover_arm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.208573] (-) TimerEvent: {}
+[2.215849] (rover_arm_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.308804] (-) TimerEvent: {}
+[2.409423] (-) TimerEvent: {}
+[2.502487] (rover_arm_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.509521] (-) TimerEvent: {}
+[2.609981] (-) TimerEvent: {}
+[2.617296] (rover_arm_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.710188] (-) TimerEvent: {}
+[2.810819] (-) TimerEvent: {}
+[2.875776] (rover_arm_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.910908] (-) TimerEvent: {}
+[2.956879] (rover_arm_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.011054] (-) TimerEvent: {}
+[3.111674] (-) TimerEvent: {}
+[3.212336] (-) TimerEvent: {}
+[3.307385] (rover_arm_interface) StderrLine: {'line': b"Error parsing '/Rover_2022_2023/software/ros_packages/rover_arm_interface/package.xml':\n"}
+[3.312556] (-) TimerEvent: {}
+[3.317268] (rover_arm_interface) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.317816] (rover_arm_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[3.318239] (rover_arm_interface) StderrLine: {'line': b'    main()\n'}
+[3.318630] (rover_arm_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[3.319017] (rover_arm_interface) StderrLine: {'line': b'    raise e\n'}
+[3.319387] (rover_arm_interface) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[3.319759] (rover_arm_interface) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.320134] (rover_arm_interface) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[3.320538] (rover_arm_interface) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[3.320933] (rover_arm_interface) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[3.321303] (rover_arm_interface) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[3.321674] (rover_arm_interface) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/Rover_2022_2023/software/ros_packages/rover_arm_interface/package.xml':\n"}
+[3.322044] (rover_arm_interface) StderrLine: {'line': b"Package 'rover_arm_interface' must declare at least one maintainer\n"}
+[3.338217] (rover_arm_interface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[3.338969] (rover_arm_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.339360] (rover_arm_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.339691] (rover_arm_interface) StderrLine: {'line': b'  /Rover_2022_2023/software/ros_packages/rover_arm_interface/package.xml\n'}
+[3.340019] (rover_arm_interface) StderrLine: {'line': b'  /Rover_2022_2023/software/build/rover_arm_interface/ament_cmake_core/package.cmake)\n'}
+[3.340350] (rover_arm_interface) StderrLine: {'line': b'  returned error code 1\n'}
+[3.340733] (rover_arm_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.341052] (rover_arm_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.341335] (rover_arm_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[3.341636] (rover_arm_interface) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[3.341892] (rover_arm_interface) StderrLine: {'line': b'\n'}
+[3.342142] (rover_arm_interface) StderrLine: {'line': b'\n'}
+[3.343675] (rover_arm_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.344281] (rover_arm_interface) StdoutLine: {'line': b'See also "/Rover_2022_2023/software/build/rover_arm_interface/CMakeFiles/CMakeOutput.log".\n'}
+[3.359426] (rover_arm_interface) CommandEnded: {'returncode': 1}
+[3.362020] (rover_arm_interface) JobEnded: {'identifier': 'rover_arm_interface', 'rc': 1}
+[3.374083] (-) EventReactorShutdown: {}

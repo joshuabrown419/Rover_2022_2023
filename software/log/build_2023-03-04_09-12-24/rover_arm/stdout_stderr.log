@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target rover_arm[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o[0m
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Krover_arm_interface/arm_control_message.hpp: No such file or directory
+    9 | #include [01;31m[K<rover_arm_interface/arm_control_message.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rover_arm.dir/build.make:63: CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rover_arm.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

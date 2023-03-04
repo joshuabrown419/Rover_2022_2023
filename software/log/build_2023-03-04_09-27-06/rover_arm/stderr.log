@@ -1,0 +1,111 @@
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:358:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Krover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  358 |     void absolute_position_callback(const rover_arm_interface::msg::ArmControlMessage::ConstPtr &msg[01;35m[K)[m[K {
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_control_message.hpp:7[m[K,
+                 from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:9[m[K:
+[01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__struct.hpp:192:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  192 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:389:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Krover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  389 |     void relative_position_callback(const rover_arm_interface::msg::ArmControlMessage::ConstPtr &msg[01;35m[K)[m[K {
+      |                                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_control_message.hpp:7[m[K,
+                 from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:9[m[K:
+[01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__struct.hpp:192:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  192 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:418:13:[m[K [01;31m[Kerror: [m[K‘[01m[KNodeHandle[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+  418 |     rclcpp::[01;31m[KNodeHandle[m[K *node_handle;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:424:5:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Publisher[m[K’ without an argument list
+  424 |     [01;31m[Krclcpp[m[K::Publisher status_publisher;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:424:5:[m[K [01;36m[Knote: [m[Kclass template argument deduction is only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:51:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class MessageT, class AllocatorT> class rclcpp::Publisher[m[K’ declared here
+   51 | class [01;36m[KPublisher[m[K : public PublisherBase
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:427:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+  427 |     rclcpp::[01;31m[KSubscriber[m[K absolute_position_control_subscriber;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:428:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+  428 |     rclcpp::[01;31m[KSubscriber[m[K relative_position_control_subscriber;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In constructor ‘[01m[KRoverArm::RoverArm(int, char**)[m[K’:
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:84:34:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst rclcpp::InitOptions&[m[K’ from expression of type ‘[01m[Kconst char [10][m[K’
+   84 |         rclcpp::init(argc, argv, [01;31m[K"rover_arm"[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:56:63:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)[m[K’
+   56 | init(int argc, char const * const argv[], [01;36m[Kconst InitOptions & init_options = InitOptions()[m[K);
+      |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_handle[m[K’ was not declared in this scope
+   86 |         [01;31m[Knode_handle[m[K = new rclcpp::NodeHandle("~");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:27:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+   86 |         node_handle = new [01;31m[Krclcpp[m[K::NodeHandle("~");
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+   93 |             [01;31m[KROS_ERROR[m[K("Could not connect to arm");
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kabsolute_position_control_subscriber[m[K’ was not declared in this scope
+   99 |         [01;31m[Kabsolute_position_control_subscriber[m[K = node_handle->subscribe(default_absolute_position_control_topic, 1,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krelative_position_control_subscriber[m[K’ was not declared in this scope
+  101 |         [01;31m[Krelative_position_control_subscriber[m[K = node_handle->subscribe(default_relative_position_control_topic, 1,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher[m[K’ was not declared in this scope
+  104 |         [01;31m[Kstatus_publisher[m[K = node_handle->advertise<rover_arm_interface::ArmStatusMessage>(default_arm_status_topic, 1);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:72:[m[K [01;31m[Kerror: [m[K‘[01m[KArmStatusMessage[m[K’ is not a member of ‘[01m[Krover_arm_interface[m[K’; did you mean ‘[01m[Krover_arm_interface::msg::ArmStatusMessage[m[K’?
+  104 |         status_publisher = node_handle->advertise<rover_arm_interface::[01;31m[KArmStatusMessage[m[K>(default_arm_status_topic, 1);
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_status_message.hpp:7[m[K,
+                 from [01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:10[m[K:
+[01m[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__struct.hpp:443:7:[m[K [01;36m[Knote: [m[K‘[01m[Krover_arm_interface::msg::ArmStatusMessage[m[K’ declared here
+  443 | using [01;36m[KArmStatusMessage[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:90:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+  104 |         status_publisher = node_handle->advertise<rover_arm_interface::ArmStatusMessage>([01;35m[Kdefault_arm_status_topic[m[K, 1);
+      |                                                                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::run()[m[K’:
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:136:21:[m[K [01;31m[Kerror: [m[K‘[01m[KspinOnce[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+  136 |             rclcpp::[01;31m[KspinOnce[m[K();
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:140:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+  140 |         [01;31m[KROS_ERROR[m[K("Shutting down.");
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:124:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdir[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  124 |         char [01;35m[Kdir[m[K = 0;
+      |              [01;35m[K^~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::get_joint_statuses()[m[K’:
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:310:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher[m[K’ was not declared in this scope
+  310 |         [01;31m[Kstatus_publisher[m[K.publish(status_message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::absolute_position_callback(const ConstPtr&)[m[K’:
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:375:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+  375 |         [01;31m[KROS_INFO[m[K("BASE: %ld\tSHOULDER: %ld\tELBOW: %ld\tROLL: %ld\tWRIST_PITCH: %ld\tWRIST_ROLL: %ld\t", base_set_position, shoulder_set_position, elbow_set_position, roll_set_position, wrist_pitch_set_position, wrist_roll_set_position);
+      |         [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rover_arm.dir/build.make:63: CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rover_arm.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

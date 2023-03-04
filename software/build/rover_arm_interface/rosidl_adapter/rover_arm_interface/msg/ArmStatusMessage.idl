@@ -1,0 +1,58 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rover_arm_interface/msg/ArmStatusMessage.msg
+// generated code does not contain a copyright notice
+
+
+module rover_arm_interface {
+  module msg {
+    struct ArmStatusMessage {
+      double base;
+
+      double shoulder;
+
+      double elbow;
+
+      double roll;
+
+      double wrist_pitch;
+
+      double wrist_roll;
+
+      int32 base_comm_status;
+
+      int32 shoulder_comm_status;
+
+      int32 elbow_comm_status;
+
+      int32 roll_comm_status;
+
+      int32 wrist_pitch_comm_status;
+
+      int32 wrist_roll_comm_status;
+
+      int32 base_status;
+
+      int32 shoulder_status;
+
+      int32 elbow_status;
+
+      int32 roll_status;
+
+      int32 wrist_pitch_status;
+
+      int32 wrist_roll_status;
+
+      int32 base_faults;
+
+      int32 shoulder_faults;
+
+      int32 elbow_faults;
+
+      int32 roll_faults;
+
+      int32 wrist_pitch_faults;
+
+      int32 wrist_roll_faults;
+    };
+  };
+};
