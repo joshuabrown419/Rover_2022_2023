@@ -11,6 +11,16 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='rover2_control',
+            executable='iris_controller',
+            name='iris_controller',
+            parameters=[{
+                '~port': '/dev/rover/ttyIRIS',
+                '~hertz': 20
+            }],
+            **config
+        ),
+        Node(
+            package='rover2_control',
             executable='drive_control',
             name='rear_bogie',
             parameters=[{
@@ -46,6 +56,30 @@ def generate_launch_description():
                 '~first_motor_id': 2,
                 '~second_motor_id': 1
             }],
+            **config
+        ),
+        Node(
+            package='rover2_control',
+            executable='drive_coordinator',
+            name='drive_coordinator',
+            **config
+        ),
+        Node(
+            package='rover2_control',
+            executable='tower_and_pan_tilt_control',
+            name='tower_and_pan_tilt',
+            **config
+        ),
+        Node(
+            package='rover2_control',
+            executable='chassis_pan_tilt_control',
+            name='chassis_pan_tilt',
+            **config
+        ),
+        Node(
+            package='rover2_control',
+            executable='effectors_control',
+            name='effectors',
             **config
         )
     ])
