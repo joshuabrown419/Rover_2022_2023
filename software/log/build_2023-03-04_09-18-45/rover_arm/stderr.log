@@ -1,0 +1,108 @@
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:358:43:[m[K [01;31m[Kerror: [m[K‘[01m[Krover_arm[m[K’ does not name a type; did you mean ‘[01m[KRoverArm[m[K’?
+  358 |     void absolute_position_callback(const [01;31m[Krover_arm[m[K::ArmControlMessage::ConstPtr &msg) {
+      |                                           [01;31m[K^~~~~~~~~[m[K
+      |                                           [32m[KRoverArm[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:358:71:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  358 |     void absolute_position_callback(const rover_arm::ArmControlMessage[01;31m[K::[m[KConstPtr &msg) {
+      |                                                                       [01;31m[K^~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:358:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  358 |     void absolute_position_callback[34m[K([m[Kconst rover_arm::ArmControlMessage[01;31m[K:[m[K[32m[K:[m[KConstPtr &msg) {
+      |                                    [34m[K~[m[K                                  [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                       [32m[K)[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:358:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  358 |     void absolute_position_callback(const rover_arm::[01;31m[KArmControlMessage[m[K::ConstPtr &msg) {
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:358:73:[m[K [01;31m[Kerror: [m[K‘[01m[KConstPtr[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+  358 |     void absolute_position_callback(const rover_arm::ArmControlMessage::[01;31m[KConstPtr[m[K &msg) {
+      |                                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:389:43:[m[K [01;31m[Kerror: [m[K‘[01m[Krover_arm[m[K’ does not name a type; did you mean ‘[01m[KRoverArm[m[K’?
+  389 |     void relative_position_callback(const [01;31m[Krover_arm[m[K::ArmControlMessage::ConstPtr &msg) {
+      |                                           [01;31m[K^~~~~~~~~[m[K
+      |                                           [32m[KRoverArm[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:389:71:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  389 |     void relative_position_callback(const rover_arm::ArmControlMessage[01;31m[K::[m[KConstPtr &msg) {
+      |                                                                       [01;31m[K^~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:389:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  389 |     void relative_position_callback[34m[K([m[Kconst rover_arm::ArmControlMessage[01;31m[K:[m[K[32m[K:[m[KConstPtr &msg) {
+      |                                    [34m[K~[m[K                                  [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                       [32m[K)[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:389:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  389 |     void relative_position_callback(const rover_arm::[01;31m[KArmControlMessage[m[K::ConstPtr &msg) {
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:389:73:[m[K [01;31m[Kerror: [m[K‘[01m[KConstPtr[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+  389 |     void relative_position_callback(const rover_arm::ArmControlMessage::[01;31m[KConstPtr[m[K &msg) {
+      |                                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:418:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+  418 |     [01;31m[Kros[m[K::NodeHandle *node_handle;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kcos[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:424:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+  424 |     [01;31m[Kros[m[K::Publisher status_publisher;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kcos[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:425:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krover_arm[m[K’ does not name a type; did you mean ‘[01m[KRoverArm[m[K’?
+  425 |     [01;31m[Krover_arm[m[K::ArmStatusMessage status_message;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KRoverArm[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:427:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+  427 |     [01;31m[Kros[m[K::Subscriber absolute_position_control_subscriber;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kcos[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:428:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+  428 |     [01;31m[Kros[m[K::Subscriber relative_position_control_subscriber;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kcos[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In constructor ‘[01m[KRoverArm::RoverArm(int, char**)[m[K’:
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   84 |         [01;31m[Kros[m[K::init(argc, argv, "rover_arm");
+      |         [01;31m[K^~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_handle[m[K’ was not declared in this scope
+   86 |         [01;31m[Knode_handle[m[K = new ros::NodeHandle("~");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[Kcos[m[K’?
+   86 |         node_handle = new [01;31m[Kros[m[K::NodeHandle("~");
+      |                           [01;31m[K^~~[m[K
+      |                           [32m[Kcos[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+   93 |             [01;31m[KROS_ERROR[m[K("Could not connect to arm");
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kabsolute_position_control_subscriber[m[K’ was not declared in this scope
+   99 |         [01;31m[Kabsolute_position_control_subscriber[m[K = node_handle->subscribe(default_absolute_position_control_topic, 1,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krelative_position_control_subscriber[m[K’ was not declared in this scope
+  101 |         [01;31m[Krelative_position_control_subscriber[m[K = node_handle->subscribe(default_relative_position_control_topic, 1,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher[m[K’ was not declared in this scope
+  104 |         [01;31m[Kstatus_publisher[m[K = node_handle->advertise<rover_arm::ArmStatusMessage>(default_arm_status_topic, 1);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krover_arm[m[K’ has not been declared
+  104 |         status_publisher = node_handle->advertise<[01;31m[Krover_arm[m[K::ArmStatusMessage>(default_arm_status_topic, 1);
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:80:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+  104 |         status_publisher = node_handle->advertise<rover_arm::ArmStatusMessage>([01;35m[Kdefault_arm_status_topic[m[K, 1);
+      |                                                                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::run()[m[K’:
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:127:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  127 |         while ([01;31m[Kros[m[K::ok()) {
+      |                [01;31m[K^~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:136:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  136 |             [01;31m[Kros[m[K::spinOnce();
+      |             [01;31m[K^~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:140:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+  140 |         [01;31m[KROS_ERROR[m[K("Shutting down.");
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:124:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdir[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  124 |         char [01;35m[Kdir[m[K = 0;
+      |              [01;35m[K^~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:[m[K In member function ‘[01m[Kvoid RoverArm::get_joint_statuses()[m[K’:
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:282:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_message[m[K’ was not declared in this scope
+  282 |         [01;31m[Kstatus_message[m[K.base = base_current_position / double(base_counts_per_rev);
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:310:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_publisher[m[K’ was not declared in this scope
+  310 |         [01;31m[Kstatus_publisher[m[K.publish(status_message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/rover_arm.dir/build.make:63: CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rover_arm.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

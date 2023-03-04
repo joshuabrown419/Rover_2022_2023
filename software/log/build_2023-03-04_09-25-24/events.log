@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (-) JobUnselected: {'identifier': 'ArduinoJson'}
+[0.000380] (-) JobUnselected: {'identifier': 'ground_station'}
+[0.000449] (-) JobUnselected: {'identifier': 'mr1718-arm-urdf_export'}
+[0.000478] (-) JobUnselected: {'identifier': 'nimbro_topic_transport'}
+[0.000520] (-) JobUnselected: {'identifier': 'rover_arm_control'}
+[0.000565] (-) JobUnselected: {'identifier': 'rover_arm_interface'}
+[0.000602] (-) JobUnselected: {'identifier': 'rover_arm_moveit_config'}
+[0.000639] (-) JobUnselected: {'identifier': 'rover_camera'}
+[0.001292] (-) JobUnselected: {'identifier': 'rover_control'}
+[0.001935] (-) JobUnselected: {'identifier': 'rover_main'}
+[0.002024] (-) JobUnselected: {'identifier': 'rover_odometry'}
+[0.002398] (-) JobUnselected: {'identifier': 'rover_science'}
+[0.002457] (-) JobUnselected: {'identifier': 'rover_status'}
+[0.002610] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.002682] (rover_arm) JobQueued: {'identifier': 'rover_arm', 'dependencies': OrderedDict([('rover_arm_interface', '/Rover_2022_2023/software/install/rover_arm_interface')])}
+[0.002741] (rover_arm) JobStarted: {'identifier': 'rover_arm'}
+[0.030889] (rover_arm) JobProgress: {'identifier': 'rover_arm', 'progress': 'cmake'}
+[0.033407] (rover_arm) JobProgress: {'identifier': 'rover_arm', 'progress': 'build'}
+[0.036580] (rover_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Rover_2022_2023/software/build/rover_arm', '--', '-j12', '-l12'], 'cwd': '/Rover_2022_2023/software/build/rover_arm', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('GIT_ASKPASS', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('TERM_PROGRAM_VERSION', '1.76.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fabbe84-f6f6-46a6-9871-c9d7266da34a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/Rover_2022_2023/software/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-87c1aef3-f24c-4e58-964b-9f3c40a85e34.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-16e43ebfce.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/Rover_2022_2023/software/install/rover_arm_interface:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/Rover_2022_2023/software/build/rover_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.098633] (-) TimerEvent: {}
+[0.199520] (-) TimerEvent: {}
+[0.215194] (rover_arm) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rover_arm\x1b[0m\n'}
+[0.299724] (-) TimerEvent: {}
+[0.312867] (rover_arm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o\x1b[0m\n'}
+[0.399944] (-) TimerEvent: {}
+[0.500705] (-) TimerEvent: {}
+[0.601424] (-) TimerEvent: {}
+[0.702161] (-) TimerEvent: {}
+[0.802885] (-) TimerEvent: {}
+[0.903552] (-) TimerEvent: {}
+[1.004269] (-) TimerEvent: {}
+[1.104977] (-) TimerEvent: {}
+[1.205638] (-) TimerEvent: {}
+[1.306299] (-) TimerEvent: {}
+[1.406974] (-) TimerEvent: {}
+[1.507597] (-) TimerEvent: {}
+[1.608339] (-) TimerEvent: {}
+[1.709165] (-) TimerEvent: {}
+[1.809892] (-) TimerEvent: {}
+[1.910654] (-) TimerEvent: {}
+[2.011318] (-) TimerEvent: {}
+[2.112062] (-) TimerEvent: {}
+[2.212702] (-) TimerEvent: {}
+[2.313406] (-) TimerEvent: {}
+[2.414010] (-) TimerEvent: {}
+[2.514621] (-) TimerEvent: {}
+[2.615192] (-) TimerEvent: {}
+[2.715805] (-) TimerEvent: {}
+[2.816415] (-) TimerEvent: {}
+[2.917033] (-) TimerEvent: {}
+[3.017704] (-) TimerEvent: {}
+[3.118325] (-) TimerEvent: {}
+[3.218977] (-) TimerEvent: {}
+[3.319553] (-) TimerEvent: {}
+[3.420162] (-) TimerEvent: {}
+[3.520776] (-) TimerEvent: {}
+[3.621345] (-) TimerEvent: {}
+[3.722023] (-) TimerEvent: {}
+[3.822880] (-) TimerEvent: {}
+[3.923516] (-) TimerEvent: {}
+[4.024164] (-) TimerEvent: {}
+[4.125407] (-) TimerEvent: {}
+[4.226064] (-) TimerEvent: {}
+[4.326785] (-) TimerEvent: {}
+[4.427495] (-) TimerEvent: {}
+[4.528169] (-) TimerEvent: {}
+[4.628826] (-) TimerEvent: {}
+[4.729460] (-) TimerEvent: {}
+[4.731747] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:358:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.733077] (rover_arm) StderrLine: {'line': b'  358 |     void absolute_position_callback(const rover_arm_interface::msg::ArmControlMessage::ConstPtr &msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K {\n'}
+[4.733427] (rover_arm) StderrLine: {'line': b'      |                                                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.733691] (rover_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_control_message.hpp:7\x1b[m\x1b[K,\n'}
+[4.734607] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:9\x1b[m\x1b[K:\n'}
+[4.734981] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_control_message__struct.hpp:192:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.735264] (rover_arm) StderrLine: {'line': b'  192 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.735512] (rover_arm) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.735754] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:418:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNodeHandle\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.736009] (rover_arm) StderrLine: {'line': b'  418 |     rclcpp::\x1b[01;31m\x1b[KNodeHandle\x1b[m\x1b[K *node_handle;\n'}
+[4.736274] (rover_arm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.736578] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:424:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[4.736943] (rover_arm) StderrLine: {'line': b'  424 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher status_publisher;\n'}
+[4.737274] (rover_arm) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.737596] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:424:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass template argument deduction is only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.737853] (rover_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[4.738174] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.738444] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.738687] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[4.738923] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.739309] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.739746] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[4.740192] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.740476] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.740821] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.741268] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:6\x1b[m\x1b[K:\n'}
+[4.741769] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT> class rclcpp::Publisher\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.742196] (rover_arm) StderrLine: {'line': b'   51 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[4.742520] (rover_arm) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.742815] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:427:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.743086] (rover_arm) StderrLine: {'line': b'  427 |     rclcpp::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K absolute_position_control_subscriber;\n'}
+[4.743736] (rover_arm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.744026] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:428:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.744303] (rover_arm) StderrLine: {'line': b'  428 |     rclcpp::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K relative_position_control_subscriber;\n'}
+[4.744561] (rover_arm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.744859] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRoverArm::RoverArm(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.745168] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:84:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::InitOptions&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[Kconst char [10]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.745454] (rover_arm) StderrLine: {'line': b'   84 |         rclcpp::init(argc, argv, \x1b[01;31m\x1b[K"rover_arm"\x1b[m\x1b[K);\n'}
+[4.745739] (rover_arm) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.745988] (rover_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:36\x1b[m\x1b[K,\n'}
+[4.746235] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.746477] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.746724] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[4.746967] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.747204] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.747437] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[4.747670] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.747908] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.748211] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.748480] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:6\x1b[m\x1b[K:\n'}
+[4.748742] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:56:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 3 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.749019] (rover_arm) StderrLine: {'line': b'   56 | init(int argc, char const * const argv[], \x1b[01;36m\x1b[Kconst InitOptions & init_options = InitOptions()\x1b[m\x1b[K);\n'}
+[4.749289] (rover_arm) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.749556] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.749825] (rover_arm) StderrLine: {'line': b'   86 |         \x1b[01;31m\x1b[Knode_handle\x1b[m\x1b[K = new rclcpp::NodeHandle("~");\n'}
+[4.750090] (rover_arm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.750368] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:86:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected type-specifier\n'}
+[4.750845] (rover_arm) StderrLine: {'line': b'   86 |         node_handle = new \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::NodeHandle("~");\n'}
+[4.751115] (rover_arm) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.751388] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:93:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_ERROR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.751727] (rover_arm) StderrLine: {'line': b'   93 |             \x1b[01;31m\x1b[KROS_ERROR\x1b[m\x1b[K("Could not connect to arm");\n'}
+[4.752023] (rover_arm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.776807] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:99:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kabsolute_position_control_subscriber\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.777482] (rover_arm) StderrLine: {'line': b'   99 |         \x1b[01;31m\x1b[Kabsolute_position_control_subscriber\x1b[m\x1b[K = node_handle->subscribe(default_absolute_position_control_topic, 1,\n'}
+[4.777828] (rover_arm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.800346] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:101:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krelative_position_control_subscriber\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.800759] (rover_arm) StderrLine: {'line': b'  101 |         \x1b[01;31m\x1b[Krelative_position_control_subscriber\x1b[m\x1b[K = node_handle->subscribe(default_relative_position_control_topic, 1,\n'}
+[4.801035] (rover_arm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.811071] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstatus_publisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.811925] (rover_arm) StderrLine: {'line': b'  104 |         \x1b[01;31m\x1b[Kstatus_publisher\x1b[m\x1b[K = node_handle->advertise<rover_arm_interface::ArmStatusMessage>(default_arm_status_topic, 1);\n'}
+[4.812300] (rover_arm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.812567] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KArmStatusMessage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krover_arm_interface\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krover_arm_interface::msg::ArmStatusMessage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.812896] (rover_arm) StderrLine: {'line': b'  104 |         status_publisher = node_handle->advertise<rover_arm_interface::\x1b[01;31m\x1b[KArmStatusMessage\x1b[m\x1b[K>(default_arm_status_topic, 1);\n'}
+[4.813143] (rover_arm) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.813388] (rover_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/arm_status_message.hpp:7\x1b[m\x1b[K,\n'}
+[4.813627] (rover_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:10\x1b[m\x1b[K:\n'}
+[4.813867] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/install/rover_arm_interface/include/rover_arm_interface/msg/detail/arm_status_message__struct.hpp:443:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krover_arm_interface::msg::ArmStatusMessage\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.814109] (rover_arm) StderrLine: {'line': b'  443 | using \x1b[01;36m\x1b[KArmStatusMessage\x1b[m\x1b[K =\n'}
+[4.814344] (rover_arm) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.814744] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:104:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[4.815022] (rover_arm) StderrLine: {'line': b'  104 |         status_publisher = node_handle->advertise<rover_arm_interface::ArmStatusMessage>(\x1b[01;35m\x1b[Kdefault_arm_status_topic\x1b[m\x1b[K, 1);\n'}
+[4.815260] (rover_arm) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.815497] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RoverArm::run()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.815736] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:136:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KspinOnce\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.815976] (rover_arm) StderrLine: {'line': b'  136 |             rclcpp::\x1b[01;31m\x1b[KspinOnce\x1b[m\x1b[K();\n'}
+[4.816207] (rover_arm) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.820561] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:140:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_ERROR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.820943] (rover_arm) StderrLine: {'line': b'  140 |         \x1b[01;31m\x1b[KROS_ERROR\x1b[m\x1b[K("Shutting down.");\n'}
+[4.821210] (rover_arm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.821489] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:124:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdir\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[4.821780] (rover_arm) StderrLine: {'line': b'  124 |         char \x1b[01;35m\x1b[Kdir\x1b[m\x1b[K = 0;\n'}
+[4.822055] (rover_arm) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.829618] (-) TimerEvent: {}
+[4.835579] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RoverArm::get_joint_statuses()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.836003] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:310:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstatus_publisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.836279] (rover_arm) StderrLine: {'line': b'  310 |         \x1b[01;31m\x1b[Kstatus_publisher\x1b[m\x1b[K.publish(status_message);\n'}
+[4.836531] (rover_arm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.853683] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RoverArm::absolute_position_callback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.855347] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:375:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.855838] (rover_arm) StderrLine: {'line': b'  375 |         \x1b[01;31m\x1b[KROS_INFO\x1b[m\x1b[K("BASE: %ld\\tSHOULDER: %ld\\tELBOW: %ld\\tROLL: %ld\\tWRIST_PITCH: %ld\\tWRIST_ROLL: %ld\\t", base_set_position, shoulder_set_position, elbow_set_position, roll_set_position, wrist_pitch_set_position, wrist_roll_set_position);\n'}
+[4.856164] (rover_arm) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.856576] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RoverArm::relative_position_callback(const ArmControlMessage&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.856913] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:392:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.857379] (rover_arm) StderrLine: {'line': b'  392 |         base_set_position += msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kbase * base_counts_per_rev;\n'}
+[4.857678] (rover_arm) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.858077] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:393:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.858552] (rover_arm) StderrLine: {'line': b'  393 |         shoulder_set_position += msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kshoulder * shoulder_counts_per_rev;\n'}
+[4.858891] (rover_arm) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.859217] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:394:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.859631] (rover_arm) StderrLine: {'line': b'  394 |         elbow_set_position += msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kelbow * elbow_counts_per_rev;\n'}
+[4.859948] (rover_arm) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.860240] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:395:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.860546] (rover_arm) StderrLine: {'line': b'  395 |         roll_set_position += msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kroll * roll_counts_per_rev;\n'}
+[4.860830] (rover_arm) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.861246] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:397:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.861783] (rover_arm) StderrLine: {'line': b'  397 |         wrist_roll_set_position += msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kwrist_roll * wrist_roll_counts_per_rev;\n'}
+[4.862121] (rover_arm) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.862407] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:399:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.862743] (rover_arm) StderrLine: {'line': b'  399 |         wrist_pitch_set_position += msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kwrist_pitch * wrist_pitch_counts_per_rev;\n'}
+[4.863043] (rover_arm) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.863327] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:407:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.863647] (rover_arm) StderrLine: {'line': b'  407 |         should_clear_faults = (msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kclear_faults);\n'}
+[4.863928] (rover_arm) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.864200] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:408:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.864474] (rover_arm) StderrLine: {'line': b'  408 |         should_reset = (msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kreset_controllers);\n'}
+[4.864742] (rover_arm) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.865104] (rover_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/Rover_2022_2023/software/ros_packages/rover_arm/src/rover_arm.cpp:409:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst ArmControlMessage\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rover_arm_interface::msg::ArmControlMessage_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.865385] (rover_arm) StderrLine: {'line': b'  409 |         should_calibrate = msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kcalibrate;\n'}
+[4.865659] (rover_arm) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.929850] (-) TimerEvent: {}
+[5.030492] (-) TimerEvent: {}
+[5.131110] (-) TimerEvent: {}
+[5.231710] (-) TimerEvent: {}
+[5.332348] (-) TimerEvent: {}
+[5.432904] (-) TimerEvent: {}
+[5.533543] (-) TimerEvent: {}
+[5.634163] (-) TimerEvent: {}
+[5.734767] (-) TimerEvent: {}
+[5.835358] (-) TimerEvent: {}
+[5.935983] (-) TimerEvent: {}
+[6.028396] (rover_arm) StderrLine: {'line': b'make[2]: *** [CMakeFiles/rover_arm.dir/build.make:63: CMakeFiles/rover_arm.dir/src/rover_arm.cpp.o] Error 1\n'}
+[6.029231] (rover_arm) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rover_arm.dir/all] Error 2\n'}
+[6.029895] (rover_arm) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.035258] (rover_arm) CommandEnded: {'returncode': 2}
+[6.036373] (-) TimerEvent: {}
+[6.141569] (-) TimerEvent: {}
+[6.164418] (rover_arm) JobEnded: {'identifier': 'rover_arm', 'rc': 2}
+[6.167772] (-) EventReactorShutdown: {}
