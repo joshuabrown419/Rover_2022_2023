@@ -3,12 +3,11 @@
 #include <unistd.h>
 #include <algorithm>
 
-#include <ros/ros.h>
-#include <ros/console.h>
+#include <rclcpp/rclcpp.hpp>
 
 #include "simplemotion/simplemotion.h"
-#include <rover_arm/ArmControlMessage.h>
-#include <rover_arm/ArmStatusMessage.h>
+#include <rover_arm_interface/msg/arm_control_message.hpp>
+#include <rover_arm_interface/msg/arm_status_message.hpp>
 
 
 using namespace std;

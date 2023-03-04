@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/Rover_2022_2023/software/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /Rover_2022_2023/software/ros_packages/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/tutorial_interfaces
+[0.118s] -- The C compiler identification is GNU 9.4.0
+[0.248s] -- The CXX compiler identification is GNU 9.4.0
+[0.258s] -- Check for working C compiler: /usr/bin/cc
+[0.517s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.529s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.815s] -- Detecting C compile features
+[0.816s] -- Detecting C compile features - done
+[0.823s] -- Check for working CXX compiler: /usr/bin/c++
+[1.115s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.120s] -- Detecting CXX compiler ABI info
+[1.418s] -- Detecting CXX compiler ABI info - done
+[1.465s] -- Detecting CXX compile features
+[1.468s] -- Detecting CXX compile features - done
+[1.487s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.554s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.554s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.043s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.259s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.261s] -- Added test 'lint_cmake' to check CMake code style
+[2.262s] -- Added test 'xmllint' to check XML markup files
+[2.265s] -- Configuring done
+[2.266s] -- Generating done
+[2.267s] -- Build files have been written to: /Rover_2022_2023/software/build/tutorial_interfaces
+[2.276s] Invoked command in '/Rover_2022_2023/software/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /Rover_2022_2023/software/ros_packages/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/tutorial_interfaces
+[2.284s] Invoking command in '/Rover_2022_2023/software/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/tutorial_interfaces -- -j12 -l12
+[2.429s] Invoked command in '/Rover_2022_2023/software/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/tutorial_interfaces -- -j12 -l12
+[2.601s] Invoking command in '/Rover_2022_2023/software/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/tutorial_interfaces
+[2.635s] -- Install configuration: ""
+[2.635s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[2.637s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[2.638s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[2.639s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[2.640s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[2.640s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[2.641s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[2.642s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[2.643s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[2.643s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[2.644s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[2.644s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[2.645s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[2.646s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[2.646s] -- Installing: /Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[2.652s] Invoked command in '/Rover_2022_2023/software/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/tutorial_interfaces

@@ -1,0 +1,6 @@
+Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm_interface -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface
+Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm_interface -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm_interface
+Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm_interface -- -j12 -l12
+Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm_interface -- -j12 -l12
+Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/rover_arm_interface
+Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/rover_arm_interface

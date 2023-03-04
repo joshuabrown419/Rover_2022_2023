@@ -1,0 +1,4 @@
+msg/ArmControlMessage.idl
+msg/ArmControlMessage.msg
+msg/ArmStatusMessage.idl
+msg/ArmStatusMessage.msg

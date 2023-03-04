@@ -1,0 +1,2 @@
+Invoking command in '/Rover_2022_2023/software/build/rover_arm': /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm
+Invoked command in '/Rover_2022_2023/software/build/rover_arm' returned '1': /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm

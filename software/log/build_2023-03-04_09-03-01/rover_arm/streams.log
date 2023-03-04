@@ -1,0 +1,20 @@
+[0.070s] Invoking command in '/Rover_2022_2023/software/build/rover_arm': CMAKE_PREFIX_PATH=/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm
+[0.131s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.218s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.807s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.653s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.658s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.192s] -- Found rover_arm_interface: 0.0.0 (/Rover_2022_2023/software/install/rover_arm_interface/share/rover_arm_interface/cmake)
+[2.228s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[2.229s]   ament_target_dependencies() the first argument must be a valid target name
+[2.229s] Call Stack (most recent call first):
+[2.229s]   CMakeLists.txt:26 (ament_target_dependencies)
+[2.229s] 
+[2.230s] 
+[2.234s] -- Configuring incomplete, errors occurred!
+[2.234s] See also "/Rover_2022_2023/software/build/rover_arm/CMakeFiles/CMakeOutput.log".
+[2.234s] See also "/Rover_2022_2023/software/build/rover_arm/CMakeFiles/CMakeError.log".
+[2.252s] Invoked command in '/Rover_2022_2023/software/build/rover_arm' returned '1': CMAKE_PREFIX_PATH=/Rover_2022_2023/software/install/rover_arm_interface:/Rover_2022_2023/software/install/tutorial_service:/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/Rover_2022_2023/software/install/rover_arm_interface/lib:/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/Rover_2022_2023/software/install/rover_arm_interface/lib/python3.8/site-packages:/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /Rover_2022_2023/software/ros_packages/rover_arm -DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/rover_arm

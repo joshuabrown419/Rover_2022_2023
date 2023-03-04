@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.001754] (-) JobUnselected: {'identifier': 'ArduinoJson'}
+[0.003511] (-) JobUnselected: {'identifier': 'ground_station'}
+[0.003714] (-) JobUnselected: {'identifier': 'mr1718-arm-urdf_export'}
+[0.007305] (-) JobUnselected: {'identifier': 'nimbro_topic_transport'}
+[0.007494] (-) JobUnselected: {'identifier': 'rover_arm'}
+[0.007729] (-) JobUnselected: {'identifier': 'rover_arm_control'}
+[0.007929] (-) JobUnselected: {'identifier': 'rover_arm_moveit_config'}
+[0.008322] (-) JobUnselected: {'identifier': 'rover_camera'}
+[0.008443] (-) JobUnselected: {'identifier': 'rover_control'}
+[0.008529] (-) JobUnselected: {'identifier': 'rover_main'}
+[0.008603] (-) JobUnselected: {'identifier': 'rover_odometry'}
+[0.008722] (-) JobUnselected: {'identifier': 'rover_science'}
+[0.008808] (-) JobUnselected: {'identifier': 'rover_status'}
+[0.008886] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.009216] (-) JobUnselected: {'identifier': 'zed_wrapper'}
+[0.009342] (tutorial_service) JobQueued: {'identifier': 'tutorial_service', 'dependencies': OrderedDict()}
+[0.009505] (tutorial_service) JobStarted: {'identifier': 'tutorial_service'}
+[0.063585] (tutorial_service) JobProgress: {'identifier': 'tutorial_service', 'progress': 'cmake'}
+[0.064843] (tutorial_service) Command: {'cmd': ['/usr/bin/cmake', '/Rover_2022_2023/software/ros_packages/tutorial_service', '-DCMAKE_INSTALL_PREFIX=/Rover_2022_2023/software/install/tutorial_service'], 'cwd': '/Rover_2022_2023/software/build/tutorial_service', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/Rover_2022_2023/software/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy'), ('PWD', '/Rover_2022_2023/software/build/tutorial_service'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.098799] (-) TimerEvent: {}
+[0.199885] (-) TimerEvent: {}
+[0.300804] (-) TimerEvent: {}
+[0.304372] (tutorial_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.401034] (-) TimerEvent: {}
+[0.498977] (tutorial_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.501185] (-) TimerEvent: {}
+[0.517118] (tutorial_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.601406] (-) TimerEvent: {}
+[0.702080] (-) TimerEvent: {}
+[0.758826] (tutorial_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.762490] (tutorial_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802292] (-) TimerEvent: {}
+[0.903001] (-) TimerEvent: {}
+[1.001369] (tutorial_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.003118] (-) TimerEvent: {}
+[1.047681] (tutorial_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.048922] (tutorial_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.057939] (tutorial_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.103334] (-) TimerEvent: {}
+[1.204184] (-) TimerEvent: {}
+[1.304863] (-) TimerEvent: {}
+[1.359912] (tutorial_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.366589] (tutorial_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.405071] (-) TimerEvent: {}
+[1.505863] (-) TimerEvent: {}
+[1.606474] (-) TimerEvent: {}
+[1.664668] (tutorial_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.706633] (-) TimerEvent: {}
+[1.713282] (tutorial_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.715597] (tutorial_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.725999] (tutorial_service) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.806871] (-) TimerEvent: {}
+[1.816259] (tutorial_service) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.816982] (tutorial_service) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.907089] (-) TimerEvent: {}
+[2.007863] (-) TimerEvent: {}
+[2.108570] (-) TimerEvent: {}
+[2.209260] (-) TimerEvent: {}
+[2.309919] (-) TimerEvent: {}
+[2.410679] (-) TimerEvent: {}
+[2.511496] (-) TimerEvent: {}
+[2.553714] (tutorial_service) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.611680] (-) TimerEvent: {}
+[2.692922] (tutorial_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.711907] (-) TimerEvent: {}
+[2.725187] (tutorial_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.812115] (-) TimerEvent: {}
+[2.912724] (-) TimerEvent: {}
+[3.013353] (-) TimerEvent: {}
+[3.037922] (tutorial_service) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.113594] (-) TimerEvent: {}
+[3.177681] (tutorial_service) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.213759] (-) TimerEvent: {}
+[3.314441] (-) TimerEvent: {}
+[3.415139] (-) TimerEvent: {}
+[3.505225] (tutorial_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.515294] (-) TimerEvent: {}
+[3.615871] (-) TimerEvent: {}
+[3.645129] (tutorial_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.647358] (tutorial_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.649267] (tutorial_service) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.716022] (-) TimerEvent: {}
+[3.816700] (-) TimerEvent: {}
+[3.834334] (tutorial_service) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.835214] (tutorial_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.916917] (-) TimerEvent: {}
+[4.017552] (-) TimerEvent: {}
+[4.078360] (tutorial_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.078970] (tutorial_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.117765] (-) TimerEvent: {}
+[4.218434] (-) TimerEvent: {}
+[4.275568] (tutorial_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.276279] (tutorial_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.318639] (-) TimerEvent: {}
+[4.419306] (-) TimerEvent: {}
+[4.520004] (-) TimerEvent: {}
+[4.521893] (tutorial_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.525965] (tutorial_service) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.620235] (-) TimerEvent: {}
+[4.720916] (-) TimerEvent: {}
+[4.821588] (-) TimerEvent: {}
+[4.922215] (-) TimerEvent: {}
+[4.989539] (tutorial_service) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[5.020920] (tutorial_service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.022395] (-) TimerEvent: {}
+[5.122940] (-) TimerEvent: {}
+[5.223582] (-) TimerEvent: {}
+[5.306536] (tutorial_service) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.310096] (tutorial_service) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.310828] (tutorial_service) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.311179] (tutorial_service) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.313471] (tutorial_service) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.313902] (tutorial_service) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.316063] (tutorial_service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.319395] (tutorial_service) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.319828] (tutorial_service) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.321304] (tutorial_service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.323759] (-) TimerEvent: {}
+[5.332189] (tutorial_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.341889] (tutorial_service) StdoutLine: {'line': b'-- Generating done\n'}
+[5.347381] (tutorial_service) StdoutLine: {'line': b'-- Build files have been written to: /Rover_2022_2023/software/build/tutorial_service\n'}
+[5.365986] (tutorial_service) CommandEnded: {'returncode': 0}
+[5.368285] (tutorial_service) JobProgress: {'identifier': 'tutorial_service', 'progress': 'build'}
+[5.371849] (tutorial_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Rover_2022_2023/software/build/tutorial_service', '--', '-j12', '-l12'], 'cwd': '/Rover_2022_2023/software/build/tutorial_service', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/Rover_2022_2023/software/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy'), ('PWD', '/Rover_2022_2023/software/build/tutorial_service'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[5.424018] (-) TimerEvent: {}
+[5.527823] (tutorial_service) CommandEnded: {'returncode': 0}
+[5.530033] (-) TimerEvent: {}
+[5.595595] (tutorial_service) JobProgress: {'identifier': 'tutorial_service', 'progress': 'install'}
+[5.631908] (-) TimerEvent: {}
+[5.637540] (tutorial_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Rover_2022_2023/software/build/tutorial_service'], 'cwd': '/Rover_2022_2023/software/build/tutorial_service', 'env': OrderedDict([('HOSTNAME', 'joshuabrown-xps137390'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/Rover_2022_2023/software/ros_packages'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/Rover_2022_2023/software/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy'), ('PWD', '/Rover_2022_2023/software/build/tutorial_service'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/Rover_2022_2023/software/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/Rover_2022_2023/software/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[5.670461] (tutorial_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.671579] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/ament_index/resource_index/package_run_dependencies/tutorial_service\n'}
+[5.672679] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/ament_index/resource_index/parent_prefix_path/tutorial_service\n'}
+[5.673822] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/ament_prefix_path.sh\n'}
+[5.674547] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/ament_prefix_path.dsv\n'}
+[5.675182] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/path.sh\n'}
+[5.675815] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/path.dsv\n'}
+[5.676455] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.bash\n'}
+[5.677051] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.sh\n'}
+[5.677795] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.zsh\n'}
+[5.678314] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.dsv\n'}
+[5.678807] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/package.dsv\n'}
+[5.679511] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/ament_index/resource_index/packages/tutorial_service\n'}
+[5.680361] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/cmake/tutorial_serviceConfig.cmake\n'}
+[5.681119] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/cmake/tutorial_serviceConfig-version.cmake\n'}
+[5.681602] (tutorial_service) StdoutLine: {'line': b'-- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/package.xml\n'}
+[5.688522] (tutorial_service) CommandEnded: {'returncode': 0}
+[5.732148] (-) TimerEvent: {}
+[5.832973] (-) TimerEvent: {}
+[5.889945] (tutorial_service) JobEnded: {'identifier': 'tutorial_service', 'rc': 0}
+[5.893117] (-) EventReactorShutdown: {}

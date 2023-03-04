@@ -1,0 +1,7 @@
+{
+  "package_name": "rover_arm_interface",
+  "non_idl_tuples": [
+    "/Rover_2022_2023/software/ros_packages/rover_arm_interface:msg/ArmControlMessage.msg",
+    "/Rover_2022_2023/software/ros_packages/rover_arm_interface:msg/ArmStatusMessage.msg"
+  ]
+}

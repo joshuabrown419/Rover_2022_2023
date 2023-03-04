@@ -1,0 +1,43 @@
+[0.082s] Invoking command in '/Rover_2022_2023/software/build/tutorial_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/tutorial_service -- -j12 -l12
+[0.194s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.275s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.839s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.973s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.709s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.304s] -- Found tutorial_interfaces: 0.0.0 (/Rover_2022_2023/software/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.333s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.578s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.582s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.583s] -- Configured cppcheck include dirs: 
+[2.583s] -- Configured cppcheck exclude dirs and/or files: 
+[2.585s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.586s] -- Configured cpplint exclude dirs and/or files: 
+[2.588s] -- Added test 'lint_cmake' to check CMake code style
+[2.591s] -- Added test 'uncrustify' to check C / C++ code style
+[2.592s] -- Configured uncrustify additional arguments: 
+[2.593s] -- Added test 'xmllint' to check XML markup files
+[2.602s] -- Configuring done
+[2.613s] -- Generating done
+[2.618s] -- Build files have been written to: /Rover_2022_2023/software/build/tutorial_service
+[2.705s] Invoked command in '/Rover_2022_2023/software/build/tutorial_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/tutorial_service -- -j12 -l12
+[2.832s] Invoking command in '/Rover_2022_2023/software/build/tutorial_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/tutorial_service
+[2.867s] -- Install configuration: ""
+[2.868s] -- Installing: /Rover_2022_2023/software/install/tutorial_service/share/ament_index/resource_index/package_run_dependencies/tutorial_service
+[2.869s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/ament_index/resource_index/parent_prefix_path/tutorial_service
+[2.870s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/ament_prefix_path.sh
+[2.871s] -- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/ament_prefix_path.dsv
+[2.871s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/path.sh
+[2.871s] -- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/environment/path.dsv
+[2.872s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.bash
+[2.872s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.sh
+[2.873s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.zsh
+[2.873s] -- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/local_setup.dsv
+[2.873s] -- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/package.dsv
+[2.874s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/ament_index/resource_index/packages/tutorial_service
+[2.874s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/cmake/tutorial_serviceConfig.cmake
+[2.874s] -- Up-to-date: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/cmake/tutorial_serviceConfig-version.cmake
+[2.875s] -- Installing: /Rover_2022_2023/software/install/tutorial_service/share/tutorial_service/package.xml
+[2.881s] Invoked command in '/Rover_2022_2023/software/build/tutorial_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /Rover_2022_2023/software/build/tutorial_service

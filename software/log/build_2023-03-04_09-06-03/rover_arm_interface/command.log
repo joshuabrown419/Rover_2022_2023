@@ -1,0 +1,2 @@
+Invoking command in '/Rover_2022_2023/software/build/rover_arm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm_interface -- -j12 -l12
+Invoked command in '/Rover_2022_2023/software/build/rover_arm_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /Rover_2022_2023/software/build/rover_arm_interface -- -j12 -l12
